@@ -1,0 +1,17 @@
+* So we are given an array of integers and a target value, what we need to do is find two numbers from that array that when added, add up to the target value. 
+* Looking at a brute force approach I could take two pointers and make a nested loop to test each value with the rest of the array.
+* Let's try to implement brute force and see if it works, **Time complexity: O(n) and Space Complexity: O(1)**.
+* Now let's try to reduce down the time complexity, maybe O(n)?
+* How about using hash?
+* **Another Approach**
+* We can use hashset to copy array into hashset and then iterate over the nums array and do the following
+* If i take each element and subtract it from the target value and match the absolute value with an element in the hashset that should do the job in O(n).
+* **This wouldn't** how will I access the second number or the resulting number
+* **Another Approach**
+* Use the same analogy but with hashtables or hashmap because this way you can store the index and element as key value pair
+* so you loop through nums and if target - current element is not in hashtable you add it and move on and if it is then you have your pair.
+* the reason you don't put everything in hashmap at first is because this guarantees us to find the solution because by the time we are at the second answer we know the first one exits in the hashmap
+* In worst case both **Time complexity and Space Complexity are: O(n)**
+* **A question** arise in my mind: Why did we take elements as the keys and not indexes, because for example when we are looking at difference we are always gonna be looking at the key and not value so our key is our elements rather than our indexes.
+* **A question** why didn't we initialize hashMap at first, answer: if we did that and for example in our first example our target was 4 and for difference we did 4-2 = 2 and went to check in hashmap, the hasmap was gonna return the 2 we are alreay looking at and would ruin our answer.
+* https://chatgpt.com/share/72ee461e-4f84-4e79-87fe-881bd872c47a
