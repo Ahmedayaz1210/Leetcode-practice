@@ -37,4 +37,12 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
+## Array
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
