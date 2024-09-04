@@ -1,17 +1,36 @@
 '''
-UNDERSTAND: We are given an array of prices for a stock for certain amount of days and we have to find what is the best time to buy a stock and then LATER after buying when is the best time to sell it. i represents day(s) and prices[i] represents the price of the stock for ith day. Also if there is no profit we can just return 0. what if we are just given an empty arrya? Still 0? how many days can we have in total or length of prices? What is the range of prices? >= 0, <= 10^4.
+UNDERSTAND:
+- Given an array of integers "prices"
+- Where prices[i] is price of a stock on the ith day
+- Have to find the maximum profit of buying a stock one day and selling it in future (has to be future, can't track back once bought)
+- Buy at the minimum price and sell at the maximum future price
+- Buying and selling has to be DIFFERENT days
+- output: max profit
+- Clarifying questions: min and max length of the array? 1 - 10^5
+- Can we have an empty array?
+- With the one element in the array how can we buy and sell on different days?
+- Each integer can be between 0 and 10^4
+- Lowest a max profit can be is 0
 
-MATCH: We can use Two pointer approach but wouldn't be the best since it can take a lot of time complexity. So in order to save time we can tradeoff space complexity and use Dynamic Programming so we can save all the previous answers and in the end choose the one highest profit
+MATCH: 
+- For max and min problems we can use, DP, Greedy or sliding window
+- Sliding window works best because we have to keep track of both the min price and maxprofit so we can create a window of it
 
-PLAN: We can keep track of the minimum profit we have as well as the maximum profit we have. As we loop through the array we can keep track of minimum and maximum profit. We can update our maximum profit. return max profit
+
+PLAN: 
+- Left pointer at 0 index, right at 1 index 
+- if current index is smaller than min variable, that's our new min
 '''
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        minPrice = prices[0]
+        minNum = prices[0]
         maxProfit = 0
-
         for p in prices:
-            minPrice = min(minPrice, p)
-            maxProfit = max(maxProfit, p - minPrice)
+            if minNum > p:
+                minNum = p 
+            maxProfit = max(maxProfit, (p - minNum))
 
+        if maxProfit < 0:
+            maxProfit = 0
         return maxProfit
+            
