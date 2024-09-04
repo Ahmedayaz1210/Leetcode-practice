@@ -20,6 +20,10 @@ MATCH:
 PLAN: 
 - Left pointer at 0 index, right at 1 index 
 - if current index is smaller than min variable, that's our new min
+
+EVALUATE:
+- Run time complexity: O(n) because looping through all of the array and calculating maxProfit for each integer
+- Space complexity: O(1) because of keeping track of min number and max Profit
 '''
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
