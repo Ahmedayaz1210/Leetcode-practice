@@ -36,3 +36,11 @@ class Solution:
             max_sum = max(max_sum, window_sum)
         
         return max_sum / k
+
+        '''
+        In this approach we create the first window from 0 to k - 1 (because of python)
+        Then run the loop from k to the end creating each window, removing left most element
+        (i-k does that) and adding the nums[i] equivalent to right pointer
+        Another thing: better to / k at the end because before that we just need the highest 
+        sum, doesn't make sense to / k each time
+        '''
