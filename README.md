@@ -49,6 +49,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 ## Dynamic Programming
 |  |
@@ -69,6 +70,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 ## Sorting
 |  |
 | ------- |
