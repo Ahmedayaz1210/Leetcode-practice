@@ -52,10 +52,14 @@ class Solution:
         window = numStr[:k]
 
         for i in range(len(numStr) - k + 1):
+            # len(numStr) - k + 1: this is the key to only loop the number of substrings we  
+            # have
             windowInt = int(window)
             if windowInt != 0 and num % windowInt == 0:
                 counter += 1
             if i + k < len(numStr):
+                #This condition checks whether there are enough characters left in the string 
+                # to form a new window after the current iteration
                 window = window[1:] + numStr[i + k]
 
         return counter
