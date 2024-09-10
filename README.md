@@ -38,6 +38,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -71,6 +72,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Sorting
 |  |
 | ------- |
@@ -79,4 +81,8 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+## Math
+|  |
+| ------- |
+| [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 <!---LeetCode Topics End-->
