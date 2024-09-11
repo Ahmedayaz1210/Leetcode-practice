@@ -41,6 +41,8 @@ class Solution:
         
         for r, char in enumerate(s):
             if char in hashMap and hashMap[char] >= l:
+                # second statement in conditional basically checks char is occuring within
+                # window so we don't need to remove it, later we can update it's new position
                 l = hashMap[char] + 1
             else:
                 longestSub = max(longestSub, r - l + 1)
