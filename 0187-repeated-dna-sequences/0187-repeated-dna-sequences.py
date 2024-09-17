@@ -22,9 +22,14 @@ MATCH
 PLAN 
 - Create a Window, add window to hash set
 - Keep removing from left and expanding from right
-- Check if the window exists in hash set, if so append it to teh result list
+- Check if the window exists in hash set, if so append it to the result list
 - Originally we can make result list a hashset so it never repeats since we only have to return one occurrence
 - Then in the end we can convert result set to a list and return it back
+
+EVALUATE
+- Overall got the solution, only thing I had to look up was that we can create a second set for result instead of a list so only one occurrence is added and later convert it to a list when returning answer
+- Time complexity: O(n), looping through the entire string once
+- Space complexity: O(n). in worst case our result can have n repeating sequences
 '''
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
@@ -32,7 +37,6 @@ class Solution:
         result = set()
 
         window = ""
-        l = 0
         for r in range(len(s)):
             window += s[r]
             if len(window) == 10:
