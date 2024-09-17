@@ -54,6 +54,10 @@ EVALUATE:
 - My code was almost correct, once again had logic error from start so implementing one small missing thing got confusing
 - The trick was to add right pointer letter from the start and then check if any letter's value in s2 is greater than s1's if so take it out and move right
 - Another trick was rather than comparing the two hashmaps, since we were validating window, we had to match window size with s1's length
+- Another mistake I made was not using a while loop, I used if statement but with my logic if statement more sense:
+- Why a while Loop?
+- Multiple Characters Exceeding the Count: There can be cases where the count of a character exceeds its limit in s1_hashmap multiple times consecutively. The while loop ensures that the window is adjusted until all character counts are within acceptable limits.
+- Gradual Shrinking: The window might need to be shrunk multiple times in a row before it becomes valid again. An if statement would only handle one adjustment at a time, potentially missing multiple required adjustments.
 
 Time: O(n) n is length os s2
 Space complexity: In worst case, will have all letters so O(26) == O(1)
