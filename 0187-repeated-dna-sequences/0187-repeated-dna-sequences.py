@@ -42,7 +42,6 @@ class Solution:
             if len(window) == 10:
                 if window in sequences:
                     result.add(window)
-                    print(result)
                 sequences.add(window)
                 window = window[1:]
 
