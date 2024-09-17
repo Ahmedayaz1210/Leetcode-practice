@@ -40,6 +40,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Backtracking
 |  |
@@ -69,6 +70,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 ## Sliding Window
 |  |
@@ -76,6 +78,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
@@ -91,4 +94,8 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
