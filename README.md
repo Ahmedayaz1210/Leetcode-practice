@@ -51,6 +51,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
@@ -79,6 +80,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+| [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
@@ -113,4 +115,12 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
