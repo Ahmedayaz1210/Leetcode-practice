@@ -123,4 +123,12 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
