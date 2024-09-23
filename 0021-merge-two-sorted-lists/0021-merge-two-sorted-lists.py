@@ -10,7 +10,7 @@ class Solution:
         l1 = list1
         l2 = list2
         m = []
-        while l1 is not None and l2 is not None:
+        while l1 != None and l2 != None:
             m.append(current.val)
             print(m)
             if l1.val < l2.val:
