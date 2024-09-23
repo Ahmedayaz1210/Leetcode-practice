@@ -126,9 +126,11 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
