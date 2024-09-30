@@ -104,6 +104,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
@@ -131,6 +132,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
