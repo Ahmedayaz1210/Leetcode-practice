@@ -1,9 +1,4 @@
 '''
-UNDERSTAND:
-- Input: Given two singly LL
-- Each node has a single digit integer value
-- Throughout the LL, if you append all nodes values together as a string it makes up one number
-- You do the same for the other LL and you have two numbers
 - Now you take these two numbers and sum them
 - Then their sum is broken down into number by number and you make a LL from it, so each character or integer inside the number is put inside a node and those nodes form a LL, all in sequences
 - Now the two input LL we are given are in reverse order, when we convert LL to a number, we have to reverse that number
@@ -26,6 +21,16 @@ PLAN:
 - Take the number, convert it to a string, reverse it, convert back to an int
 - Run a loop, make new nodes for each value, append the value and create our LL
 
+NEETCODE SOLUTION:
+- Create a dummy node
+- Create a current pointer for our new LL
+- Create a carry variable if each addition goes over 10, that number // 10 becomes our carry and later gets added in next addition
+- Loop over the two LL until both reach None or if we don't have a carry left (edge case)
+- Create a new node with number % 10 so this gives us the other value from when we got the carry from the addition
+- We make current point to this node
+- In the end we update our pointers, if they don't exist (means both LL are not same length) in that case we stay on None
+- 
+
 EVALUATE:
 - Got the question within 27 minutes
 - Feel like I could have done this in 10 minutes
@@ -33,6 +38,8 @@ EVALUATE:
 - Time Complexity: O(n + m)
 - Space Complexity: O(1)
 - My solution is pretty ok, there is a better way to do this which neetcode showed where we only use one loop
+
+
 - My code:
         cur1 = l1
         num1 = ''
@@ -59,7 +66,6 @@ EVALUATE:
             cur = cur.next
 
         return dummy.next
-        
 '''
 # Definition for singly-linked list.
 # class ListNode:
