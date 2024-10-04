@@ -25,6 +25,13 @@ PLAN:
 - Add the two numbers
 - Take the number, convert it to a string, reverse it, convert back to an int
 - Run a loop, make new nodes for each value, append the value and create our LL
+
+EVALUATE:
+- Got the question within 27 minutes
+- Feel like I could have done this in 10 minutes
+- Pretty strightforward
+- Time Complexity: O(n + m)
+- Space Complexity: O(1)
 '''
 # Definition for singly-linked list.
 # class ListNode:
@@ -49,7 +56,7 @@ class Solution:
         
         sumOfLL = str(num1 + num2)
         sumOfLL = sumOfLL[::-1]
-        
+
         dummy = ListNode(0)
         cur = dummy
         for i in range(len(sumOfLL)):
