@@ -26,7 +26,6 @@ MATCH:
 - We will use hashmap to store position of each node
 - Map every old node to the new copy
 
-
 PLAN:
 - We use two passes so two loops to go through the whole LL
 - First pass just creates a deep copy of all of the nodes so it's easier to navigate with random pointers
@@ -49,12 +48,10 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        oldToCopy = {None : None}
+        oldToCopy = {None: None}
 
         cur = head
-        # first pass to clone LL nodes
         while cur:
-            # creates deep copy
             copy = Node(cur.val)
             oldToCopy[cur] = copy
             cur = cur.next
