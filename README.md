@@ -53,6 +53,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
@@ -110,11 +111,13 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
+| [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+| [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -127,6 +130,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 ## Prefix Sum
 |  |
 | ------- |
