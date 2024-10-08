@@ -73,6 +73,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
@@ -145,6 +146,7 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 | [0138-copy-list-with-random-pointer](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
 ## Recursion
@@ -158,4 +160,12 @@ Tracking my leetcode journey as I continue to improve my problem solving skills 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
