@@ -9,7 +9,7 @@ UNDERSTAND:
 - Tree is represented by nodes
 - Tree can have 0 - 100 nodes inclusive
 - How big can each node.val be? -100 to 100
-- Given emoty BT? Return None
+- Given empty BT? Return None
 - Is the tree always going to be balanced? meaning equal nodes on both of the sides
 - Nodes can have null children? Yes
 - Moving around the nodes themselves and not the values?
