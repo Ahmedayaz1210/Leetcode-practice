@@ -1,5 +1,5 @@
-Tracking my leetcode journey as I continue to improve my problem solving skills through the UMPIRE method!
-
+## Tracking my leetcode journey as I continue to improve my problem solving skills through the UMPIRE method!
+## Here is the link for my progress notes in case you want to keep up with my progress :) [Leetcode Journey](https://chartreuse-chili-aad.notion.site/Leetcode-Practice-Notes-9104bfaf5dcc4fceb31ebb558b4ffad9?pvs=4)
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Tree
