@@ -1,6 +1,6 @@
 '''
 UNDERSTAND:
-- Input: Given a binary tree
+- Input: Given root node of a binary tree
 - Binary Tree is a tree where each node can have at most two descendant nodes
 - Have to invert the binary tree
 - Invert? Flip on y axis or mirror the tree out
