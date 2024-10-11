@@ -32,6 +32,7 @@ PLAN:
 EVALUATE:
 - A bit hard question, I got the logic completely correct, saw a pattern of recursion and knew we had to find max heights (longest path) from both sides and add them up
 - Only thing I got confused on was I didn't know how to create a global variable to keep track of max diameter because if I initialized it to 0 it would've became 0 in each recursion so trick was to use a helper method and pretty much compute height in it and max diamater but return max diameter in the original function
+- Once again would say got 50% of the question
 - Time Complexity: O(n)
 - Space Complexity: O(h)
 '''
