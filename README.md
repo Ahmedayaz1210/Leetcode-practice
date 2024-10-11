@@ -10,6 +10,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
+| [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -18,6 +19,7 @@
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
+| [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -34,6 +36,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
+| [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 ## String
 |  |
 | ------- |
