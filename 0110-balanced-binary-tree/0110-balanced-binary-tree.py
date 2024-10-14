@@ -31,11 +31,11 @@ def height(root):
             if not root:
                 return 0
             return 1 + max(height(root.right), height(root.left))
-        if not root:
-            return True
-            
-        rightHeight = height(root.right)
-        leftHeight = height(root.left)
+if not root:
+    return True
+    
+rightHeight = height(root.right)
+leftHeight = height(root.left)
 
 return (abs(leftHeight - rightHeight) <= 1 and 
 self.isBalanced(root.left) and 
