@@ -24,20 +24,10 @@ PLAN:
 - find height of left 
 - find height of right
 - check if the difference of heights goes above 1: return False
-- return True
+- Also check if both left and right subtrees are balanced for all of the nodes using recursion
 - Can create helper function to find the height of the BT
-'''
-
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-class Solution:
-    def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        
-        def height(root):
+- O(n^2) solution:
+def height(root):
             if not root:
                 return 0
             return 1 + max(height(root.right), height(root.left))
@@ -50,3 +40,65 @@ class Solution:
         return (abs(leftHeight - rightHeight) <= 1 and 
         self.isBalanced(root.left) and 
         self.isBalanced(root.right))
+
+EVALUATE:
+- Time Complexity: O(n^2), we're calculating the height of its left and right subtrees, for skewed can be O(n^2) in worse scenario
+- Space Complexity: O(h)
+- I didn't get the question, it was fairly tricky but calculating the height part wasn't 
+- I got confused on why we had to check isBalanced for both right and left in the return statement but that's because we need to check for all of the nodes if they are balanced not just the difference. 
+- Why we need self.isBalanced(root.left) and self.isBalanced(root.right):
+
+Purpose: These checks ensure that every subtree in our binary tree is balanced, not just the current node.
+Simple analogy:
+Imagine you're checking if a family tree is "balanced" (everyone has 0-2 children). You can't just check the first person; you need to check everyone in the tree.
+Example:
+Let's look at this tree:
+    1
+   / \
+  2   3
+ /     \
+4       5
+         \
+          6
+
+At node 1: The height difference is 1 (left subtree height 2, right subtree height 3). This seems balanced.
+But the right subtree (3-5-6) is not balanced!
+
+
+What happens without these checks:
+
+We'd only check the height difference at each node.
+We'd miss the imbalance in the subtree (3-5-6).
+
+
+What these checks do:
+
+self.isBalanced(root.left): Checks if the entire left subtree is balanced.
+self.isBalanced(root.right): Checks if the entire right subtree is balanced.
+
+
+Simple explanation:
+
+It's like saying: "This node is balanced AND all its children are balanced too."
+If any part of the tree is unbalanced, the whole tree is considered unbalanced.
+
+Neetcode's O(n) SC solution
+'''
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isBalanced(self, root: Optional[TreeNode]) -> bool:
+        def dfs(root):
+            if not root:
+                return [True, 0]
+
+            left, right = dfs(root.left), dfs(root.right)
+            balanced = (abs(left[1] - right[1]) <= 1 and left[0] and right[0])
+            return [balanced, 1 + max(left[1], right[1])]
+
+        return dfs(root)[0]
