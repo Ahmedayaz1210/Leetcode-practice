@@ -82,7 +82,32 @@ Simple explanation:
 It's like saying: "This node is balanced AND all its children are balanced too."
 If any part of the tree is unbalanced, the whole tree is considered unbalanced.
 
-Neetcode's O(n) SC solution
+Neetcode's O(n) SC solution: see code
+
+Key differences in O(n^2) and O(n) approach:
+
+Redundant Calculations:
+
+O(n²): The height function is called separately for each node, potentially recalculating heights for the same subtrees multiple times.
+O(n): Height and balance are calculated in a single pass, avoiding recalculations.
+
+
+Information Propagation:
+
+O(n²): Only balance information is propagated up the tree. Height is recalculated for each node.
+O(n): Both height and balance information are propagated up the tree simultaneously.
+
+
+Early Termination:
+
+O(n²): Continues checking even if an imbalance is found deep in the tree.
+O(n): Can terminate early if an imbalance is found, as the balanced flag is passed up.
+
+
+Number of Traversals:
+
+O(n²): In the worst case (a balanced tree), it traverses the tree multiple times - once for each node's balance check.
+O(n): Always traverses the tree exactly once, regardless of its structure.
 '''
 
 # Definition for a binary tree node.
