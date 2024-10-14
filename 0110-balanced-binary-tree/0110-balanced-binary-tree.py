@@ -37,9 +37,9 @@ def height(root):
         rightHeight = height(root.right)
         leftHeight = height(root.left)
 
-        return (abs(leftHeight - rightHeight) <= 1 and 
-        self.isBalanced(root.left) and 
-        self.isBalanced(root.right))
+return (abs(leftHeight - rightHeight) <= 1 and 
+self.isBalanced(root.left) and 
+self.isBalanced(root.right))
 
 EVALUATE:
 - Time Complexity: O(n^2), we're calculating the height of its left and right subtrees, for skewed can be O(n^2) in worse scenario
