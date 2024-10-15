@@ -26,9 +26,8 @@ PLAN:
 
 EVALUATE: 
 - Let's say - n: num of nodes in p, m: num of nodes in q
-- TC: O(min(n,m))
-- SC: O(min(n,m))
-- In worst case we take their minimum height or number of nodes because as soon as one value doesn't match we return False
+- TC: O(p+q)
+- SC: O(p+q)
 - I got 75% of the question I would say
 - MISTAKE: I made the mistake of not including the second if statement
     - So the first statement checks if they both have reached the leaf nodes and returns True
