@@ -21,7 +21,24 @@ PLAN:
 - Base Case: if not root: return True
 - Checking for the same value: 
     - if p.val != q.val: return False
-- Checking for the same structure:
+- Checking for the same structure: 
+    - send both left and right of each back to function
+
+EVALUATE: 
+- Let's say - n: num of nodes in p, m: num of nodes in q
+- TC: O(min(n,m))
+- SC: O(min(n,m))
+- In worst case we take their minimum height or number of nodes because as soon as one value doesn't match we return False
+- I got 75% of the question I would say
+- MISTAKE: I made the mistake of not including the second if statement
+    - So the first statement checks if they both have reached the leaf nodes and returns True
+    - But this statement doesn't check if one is bigger than the other and keeps on returning True for it as well, If the function tries to access p.val when p is None, it would raise an error (like AttributeError in Python). If the function is written to handle this case without raising an error, it might continue recursing, potentially returning True incorrectly if the rest of the subtree in q matches the structure it's expecting.
+    - Second one checks if one is bigger than the other, for example if they are the exact same trees but one has an extra node down there that other doesn't in that case we need to return False and first statement doesn't check it
+   1                1
+  / \              / \
+ 2   3            2   3
+      \
+       4               
 
 '''
 
@@ -40,6 +57,6 @@ class Solution:
         
         
         
-        return self.isSameTree(p.right, q.right) and self.isSameTree(p.left,q.left) and p.val == q.val
+        return  p.val == q.val and self.isSameTree(p.right, q.right) and self.isSameTree(p.left,q.left)
         
         
