@@ -26,7 +26,9 @@ PLAN:
 - If root.val != subroot.val: return False
 - Check if they are the same structure
 
-
+EVALUATE:
+- TC: O(len(root)*len(subRoot)) because for each node of root we might need to check all of subroot
+- SC: O(len(root)) because in the worst case we might store the calls for height of root
 '''
 
 # Definition for a binary tree node.
