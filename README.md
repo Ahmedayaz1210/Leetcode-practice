@@ -12,6 +12,7 @@
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -22,6 +23,7 @@
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -40,6 +42,7 @@
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
 ## String
 |  |
 | ------- |
@@ -133,6 +136,7 @@
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+| [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -174,4 +178,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
