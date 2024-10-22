@@ -23,8 +23,8 @@ PLAN:
 - Then do recursion over left and right of the tree, we use twice because we check lefts all lefts and rights all rights and lefts all rights and rights all lefts
 
 EVALUATE:
-- TC: O(n)
-- SC: O(n)
+- TC: O(n), all nodes
+- SC: O(h), height
 '''
 # Definition for a binary tree node.
 # class TreeNode:
