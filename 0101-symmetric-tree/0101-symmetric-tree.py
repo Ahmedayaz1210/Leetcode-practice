@@ -15,7 +15,16 @@ MATCH:
 - Recursion
 
 PLAN:
-- 
+- Can use a helper function to check both left and right sides
+- It's the same question as same Tree but this time we are checking between left and right sides of a single tree
+- Base case: if both don't exist return True meaning they are maintaining same shape
+- Base case: if one exists and other doesn't return False
+- Check if our current left and right nodes have the same value, put this statement first so if it's false we don't need to go further down rather than going down first
+- Then do recursion over left and right of the tree, we use twice because we check lefts all lefts and rights all rights and lefts all rights and rights all lefts
+
+EVALUATE:
+- TC: O(n)
+- SC: O(n)
 '''
 # Definition for a binary tree node.
 # class TreeNode:
