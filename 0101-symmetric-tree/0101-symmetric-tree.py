@@ -22,6 +22,12 @@ PLAN:
 - Need to check values, if left's value == right's value 
 - Need to check same structure, if left structure == right structure
 - return helper function with root.left and root.right
+
+
+EVALUATE:
+- Did this question in 15 minutes by myself, tried a tree question after a week because I took a step back to learn some tree question tips and tricks with AI so that defnitely helped
+- TC: O(n), n being number of nodes
+- SC: O(h), height of the tree
 '''
 # Definition for a binary tree node.
 # class TreeNode:
