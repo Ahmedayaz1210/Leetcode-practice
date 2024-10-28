@@ -1,30 +1,27 @@
 '''
 UNDERSTAND:
 - Input: Given root of a BT
-- Have to check if left side of the tree from root node mirrored occurs on right see of tree or not
-- Output: Boolean value True if exact mirror else False
-- Symmetric means that if a node is on the left side of the left subtree, it has to be on the right side of the right subtree
-- Pretty much checking if the left of the tree == right of the tree
-- If given empty or one node we return True
+- Have to check if the tree is symmetric or not from the root node
+- A symmetric tree is a tree in which a node which is on the left side of it's root node in the left side of the tree and the other node would be on the right on the right side of the right tree
+- So it is like an opposite for the same Tree problem, kind of
 - TC?
-- SC? 
-- Each BT has [1,1000] nodes
-- Each Node's value can be <= -100 and >= 100
+- SC?
+- How many nodes can we have? [1,1000]
+- How big can each Node.val be? -100 to 100
+- An empty tree is a symmetric tree
+- A single node is a symmetric tree
 
-MATCH: 
+MATCH:
 - Recursion
 
 PLAN:
-- Can use a helper function to check both left and right sides
-- It's the same question as same Tree but this time we are checking between left and right sides of a single tree
-- Base case: if both don't exist return True meaning they are maintaining same shape
-- Base case: if one exists and other doesn't return False
-- Check if our current left and right nodes have the same value, put this statement first so if it's false we don't need to go further down rather than going down first
-- Then do recursion over left and right of the tree, we use twice because we check lefts all lefts and rights all rights and lefts all rights and rights all lefts
-
-EVALUATE:
-- TC: O(n), all nodes
-- SC: O(h), height
+- if not root: return True
+- Can make a helper function to validate the symmetric structure on the left side and right side of the tree
+- Base Case: if not left and not right: return True
+- Base Case 2: if not left or not right: return False
+- Need to check values, if left's value == right's value 
+- Need to check same structure, if left structure == right structure
+- return helper function with root.left and root.right
 '''
 # Definition for a binary tree node.
 # class TreeNode:
@@ -34,11 +31,16 @@ EVALUATE:
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        if not root:
+            return False
+
         def dfs(left, right):
             if not left and not right:
                 return True
+
             if not left or not right:
                 return False
 
-            return left.val == right.val and dfs(left.left, right.right) and dfs(left.right, right.left)
-        return dfs(root.left, root.right)
+            return left.val == right.val and dfs(left.left,right.right) and dfs(left.right,right.left)
+
+        return dfs(root.left,root.right)
