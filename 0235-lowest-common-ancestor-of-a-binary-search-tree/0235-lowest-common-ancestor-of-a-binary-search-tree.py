@@ -27,6 +27,14 @@ PLAN:
 - else if p.val and q.val > root.val:
     return LCA(root.right,p,q)
 - else (one is smaller and one is bigger means root is our LCA): return root
+
+EVALUATION
+- Wasn't a very hard question
+- Took 25 minutes to solve it
+- First question on BST rather than only BT so had to use AI to understand the difference between the two and in a BST left node.val is always < root node.val is always < right node.val
+- This way AI kind of gave me a hint of the conditional statements so I would say I did 70% of the problem myself
+- TC: O(n) x it's actually O(h) because since it is BST we only go down one path (left or right) so in the worse it could go to all nodes when it's skewed but it is still O(h), in normal BT it would be O(n) because we don't know when value is smaller or bigger so we end up recursion all nodes in worst case
+- SC: O(h)
 '''
 # Definition for a binary tree node.
 # class TreeNode:
