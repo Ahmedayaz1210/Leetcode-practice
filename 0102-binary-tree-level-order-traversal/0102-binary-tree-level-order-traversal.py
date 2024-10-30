@@ -32,6 +32,7 @@ PLAN:
 - Before moving to the next level we have to empty out the queue
 - When you pop the node from queue, add it's children to the queue
 - TC and SC: O(n)
+- One question I was confused was with when we append the descendants of a node before removing it from the queue wouldn't they get appended in the loop as well? No because before appending we only loop over amount of times from the current level's number of nodes
 
 '''
 # Definition for a binary tree node.
