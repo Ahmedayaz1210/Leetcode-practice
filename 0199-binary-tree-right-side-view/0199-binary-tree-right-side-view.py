@@ -35,7 +35,7 @@ PLAN:
 - Then lastly we append the children of our current nodes
 
 EVALUATE:
-- Got 60% of the question, I could've gotten all of this since I knew I had to use BFS and has most of the alogrithm done besides the main functionality of appending i == length node which I would say makes 40% of the quesiton
+- Got 60% of the question, I could've gotten all of this since I knew I had to use BFS and has most of the algorithm done besides the main functionality of appending i == length node which I would say makes 40% of the question
 - TC: O(n)
 - SC: O(n)
 
