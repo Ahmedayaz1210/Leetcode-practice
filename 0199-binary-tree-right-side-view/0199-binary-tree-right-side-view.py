@@ -29,6 +29,15 @@ PLAN:
 - Now I need to check if right exists, then append it but if for the same level, right doesn't exist, append the left one
 - Examples was bad, I figured we need to use BFS since at each level we are exploring both right and left (if right doesn't exist we would need this)
 - USING BFS
+- Same template for BFS which I used to Level order traversal 
+- Looping by the length og each level
+- Since we only want to append the right most node at the level we check if our i == length because that means we have the last node at that level and we want to append that
+- Then lastly we append the children of our current nodes
+
+EVALUATE:
+- Got 60% of the question, I could've gotten all of this since I knew I had to use BFS and has most of the alogrithm done besides the main functionality of appending i == length node which I would say makes 40% of the quesiton
+- TC: O(n)
+- SC: O(n)
 
 
 '''
