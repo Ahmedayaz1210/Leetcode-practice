@@ -30,7 +30,7 @@ PLAN:
 - Examples was bad, I figured we need to use BFS since at each level we are exploring both right and left (if right doesn't exist we would need this)
 - USING BFS
 - Same template for BFS which I used to Level order traversal 
-- Looping by the length og each level
+- Looping by the length of each level
 - Since we only want to append the right most node at the level we check if our i == length because that means we have the last node at that level and we want to append that
 - Then lastly we append the children of our current nodes
 
@@ -38,8 +38,6 @@ EVALUATE:
 - Got 60% of the question, I could've gotten all of this since I knew I had to use BFS and has most of the algorithm done besides the main functionality of appending i == length node which I would say makes 40% of the question
 - TC: O(n)
 - SC: O(n)
-
-
 '''
 # Definition for a binary tree node.
 # class TreeNode:
@@ -51,19 +49,17 @@ class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
+        queue = deque()
         res = []
-
-        q = collections.deque()
-        q.append(root)
-
-        while q:
-            qLen = len(q)
-            for i in range(qLen):
-                node = q.popleft()
-                if i == qLen - 1:
+        queue.append(root)
+        while queue:
+            level = len(queue)
+            for i in range(level):
+                node = queue.popleft()
+                if i == level - 1:
                     res.append(node.val)
                 if node.left:
-                    q.append(node.left)
+                    queue.append(node.left)
                 if node.right:
-                    q.append(node.right)
+                    queue.append(node.right)
         return res
