@@ -2,7 +2,7 @@
 UNDERSTAND:
 - Input: Given root of a BT
 - Have to find number of good nodes
-- A node is considered a good node if from root to that node none of the node's value was greater than the current node X
+- A node is considered a good node if from root to that node none of the previous node's value was greater than the current node X
 - Output: Return number of good nodes as an integer number
 - TC?
 - SC?
@@ -15,13 +15,21 @@ MATCH:
 - Recursion
 
 PLAN:
-- Initialize numOfGoodNodes variable to 0
-- Use a helper dfs function
-- if not node: return : good nodes + 1
-- if not.val >= max value in path so far
-- max value in path = max(max value in path up till the current node, current node's val)
-- left = func(root.left, max so far)
-- right = func(root.right, max so far)
+- numOfGoodnodes = 0
+- helper function (node, max_val_so_far)
+- if not root return
+- if node.val > max_val_so_far: numOfGoodnodes += 1
+- max_val_so_far = max(node.val, max_val_so_far)
+- dfs(node.left)
+- dfs(node.right)
+- return numOfGoodnodes
+- dfs(root)
+- return numOfGoodnodes
+
+EVALUATE:
+- Didn't get the solution myself even though this was basic DFS ...
+- TC: O(n)
+- SC: O(h)
 '''
 # Definition for a binary tree node.
 # class TreeNode:
@@ -31,10 +39,7 @@ PLAN:
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        if not root:
-            return 0
         self.numOfGoodNodes = 0
-
         def dfs(node, max_so_far):
             if not node:
                 return
@@ -43,10 +48,8 @@ class Solution:
                 self.numOfGoodNodes += 1
 
             max_so_far = max(max_so_far, node.val)
-
-            left = dfs(node.left, max_so_far)
-            right = dfs(node.right, max_so_far)
-
+            dfs(node.left, max_so_far)
+            dfs(node.right, max_so_far)
             return self.numOfGoodNodes
 
         dfs(root, float('-inf'))
