@@ -27,6 +27,7 @@ PLAN:
 
 EVALUATE:
 - Pretty much did the problem myself logic building wise, AI helped with identifying that we need lower and upper bounds as a strategy
+- Solved in 39 minutes
 - TC: O(n)
 - SC:O(h)
 
