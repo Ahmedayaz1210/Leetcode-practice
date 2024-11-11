@@ -13,6 +13,6 @@ class Solution:
         root = TreeNode(postorder[lastNode])
         mid = inorder.index(postorder[lastNode])
         root.left = self.buildTree(inorder[:mid], postorder[:mid])
-        root.right= self.buildTree(inorder[mid+1:], postorder[mid:lastNode])
+        root.right= self.buildTree(inorder[mid+1:], postorder[mid:lastNode]) # could use postorder[mid:-1] as well
 
         return root
