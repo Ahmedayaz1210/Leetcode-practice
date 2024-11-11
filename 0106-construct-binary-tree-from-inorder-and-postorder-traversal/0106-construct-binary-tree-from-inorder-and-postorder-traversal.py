@@ -1,3 +1,5 @@
+# NOTE: This was easy to solve because I had solved: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
