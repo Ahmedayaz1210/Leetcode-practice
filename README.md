@@ -90,6 +90,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
@@ -131,6 +132,7 @@
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
@@ -223,6 +225,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -242,4 +245,8 @@
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
