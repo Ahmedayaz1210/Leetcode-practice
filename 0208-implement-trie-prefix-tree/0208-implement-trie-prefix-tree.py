@@ -35,7 +35,15 @@ PLAN:
     - Lastly return current node's isEnd's boolean value because when we are at the last character of the current path or word, if it's not the end or isn't the whole world then search has to return False because search looks for a word and not a prefix
 
 - Lastly, startsWith method
-    - Pretty much the same thing except if our current node is end of a word we return False as we only it as a prefix not a word
+    - Pretty much the same thing except if we find that word doesn't matter as a prefix or a whole word we return True
+
+EVALUATE:
+- Solved it in about 20 minutes
+- TC of insert: O(n) n being length of the word
+- SC of insert: O(n) same reason
+- TC of search: O(n) length of the word, we don't have to go to every path because from the root we know where it exists because of the hashmaps
+- SC of search: O(1) not storing anything
+- startsWith is same as search
 '''
 
 class TrieNode:
