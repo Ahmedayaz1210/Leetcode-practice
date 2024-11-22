@@ -29,6 +29,14 @@ PLAN:
     - lastly update our current pointer to move to the next node or newly made node
     - remember node's don't store any values, they are key value pairs with the character they are made on so char is the key and empty node is the value.
 
+    - search: let's start by creating our current pointer which starts at root node, then we loop over the given word we are searching for, if the current character isn't in the current root's children we return False but if it is we continue, now if we have a dot, we explore all children of our current root, and check for the rest of the string. we would be using dfs since we need to get into depth of every path and also check if it's a word and not just prefix.
+
+EVALUATE:
+- The search function was a little hard to implement so I couldn't get it, I got the approach but not the code, definitely hard if never done this before
+- TC of addWord: O(n) n is length of the word
+- SC of addWord: O(t+n) t is total number of trienodes created
+- TC of search: with the 2 dots constranint it is O(26^2*n) = O(n) but for unlimited it would be O(26^n)
+- SC of search: Doesn't store anything
 
 '''
 
