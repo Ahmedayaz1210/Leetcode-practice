@@ -35,8 +35,9 @@ EVALUATE:
 - The search function was a little hard to implement so I couldn't get it, I got the approach but not the code, definitely hard if never done this before
 - TC of addWord: O(n) n is length of the word
 - SC of addWord: O(t+n) t is total number of trienodes created
-- TC of search: with the 2 dots constranint it is O(26^2*n) = O(n) but for unlimited it would be O(26^n)
+- TC of search: with the 2 dots constranint it is O(26^2*n) = O(n) but for unlimited it would be O(26^n) n is the number of dots because that's why in the worse it can be 26 else it would be straight on matching
 - SC of search: Doesn't store anything
+- https://claude.ai/chat/a1bfeee9-37ab-4c4a-9127-c4e0445749e1
 
 '''
 
