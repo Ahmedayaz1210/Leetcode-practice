@@ -26,6 +26,14 @@ PLAN:
 - Heapify it
 - Now for add function, you append "val" to original list and compare it to the top of the min heap, if it's greater, pop out of the top of min heap and put the new number in, regardless of what happens the same top gets returned here even if it is popped out
 
+EVALUATE:
+- First heap/PQ problem, overall I did great, 7.5/10
+- Used AI to come up with min heap approach rather than max heap
+- TC: Initializing would be O(n log k) because in worst case we have to insert each n element from nums and perform heap on it to adjust its location within the tree
+    Add: O(log k) because if we have to pop and add, we will have to adjust that one number in a heap of size k
+
+- SC: We always have a heap of size k. O(k)
+
 
 '''
 from heapq import heapify, heappush, heappop 
