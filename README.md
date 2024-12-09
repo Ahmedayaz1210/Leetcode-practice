@@ -25,6 +25,7 @@
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -85,6 +86,7 @@
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## String
 |  |
@@ -229,6 +231,7 @@
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -243,6 +246,7 @@
 | [0098-validate-binary-search-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -253,4 +257,12 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
