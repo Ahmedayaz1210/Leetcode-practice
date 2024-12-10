@@ -24,6 +24,11 @@ PLAN:
         - If they are the same, move on don't append 0
         - Else subtract the y (first popped) and x (second popped), return the difference back to heap
 - Once the while loop is done, return back 0 if heap is empty else the only remaining number
+
+EVALUATE:
+- Solved the problem myself on my birthday wohooo
+- TC: O(n log n) for heapifying the whole stones array which is n and push/pop take log n
+- SC: O(n) in worst case we have all stones in the heap
 '''
 from heapq import heapify, heappush, heappop 
 class Solution:
