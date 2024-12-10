@@ -116,6 +116,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
+| [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -261,6 +262,7 @@
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
 ## Data Stream
 |  |
 | ------- |
