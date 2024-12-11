@@ -29,6 +29,9 @@ EVALUATE:
 - Solved the problem myself on my birthday wohooo
 - TC: O(n log n) for heapifying the whole stones array which is n and push/pop take log n
 - SC: O(n) in worst case we have all stones in the heap
+
+Check Notes for why Heapify is O(n): https://www.notion.so/Leetcode-Practice-Notes-9104bfaf5dcc4fceb31ebb558b4ffad9?pvs=4#1596cef1fec6800296bdfb3893dc14ec
+
 '''
 from heapq import heapify, heappush, heappop 
 class Solution:
