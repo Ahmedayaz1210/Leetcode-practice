@@ -39,7 +39,6 @@ class Solution:
         while score:
             x = heappop(score)
             index = x[1]
-            print(x)
             numOfPop += 1
             if numOfPop == 1:
                 res[index] = "Gold Medal"
