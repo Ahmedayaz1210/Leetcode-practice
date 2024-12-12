@@ -21,6 +21,11 @@ PLAN:
 - Can't store key value pairs in heaps
 - So we can make a tuple of (-score, position)
 
+EVALUATE:
+- Did the problem myself
+- Didn't know we had to return the placements the way we got as inputs
+- TC: O(n log n) because heapify is O(n) and popping is O(log n)
+- SC: O(n) because we store whole score array
 '''
 from heapq import heapify, heappush, heappop
 class Solution:
