@@ -27,15 +27,16 @@ class Solution:
     def maxSubsequence(self, nums: List[int], k: int) -> List[int]:
        heap = []
 
-       for i in range(k):
-        heap.append([nums[i], i])
 
        heapify(heap)
        res = []
-       for i in range(k, len(nums)):
-        if nums[i] > heap[0][0]:
-            heappop(heap)
+       for i in range(len(nums)):
+        if len(heap) != k:
             heappush(heap, [nums[i], i])
+        else:
+            if nums[i] > heap[0][0]:
+                heappop(heap)
+                heappush(heap, [nums[i], i])
     
        while heap:
         res.append(heappop(heap))
