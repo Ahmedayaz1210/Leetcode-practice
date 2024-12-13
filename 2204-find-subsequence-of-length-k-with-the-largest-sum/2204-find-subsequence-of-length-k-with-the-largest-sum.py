@@ -21,6 +21,12 @@ PLAN:
 - When pushing make sure you push as a tuple with number's ith position
 - Once you have looped through nums, pop elements out of heap and put into a result array, then sort by positions.
 - Lastly remove the positions and return back just the values list
+
+EVALUATE:
+- Nailed it by solving it myself once agai, ready to move to mediums
+- Took me some time to write it all myself
+- TC: O(n log k) because of heapify for n elements and push pop log k
+- SC: O(k) to store at max k elements for max res
 '''
 from heapq import heapify, heappush, heappop
 class Solution:
