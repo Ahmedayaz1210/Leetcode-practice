@@ -44,7 +44,6 @@ class Solution:
        
        res = sorted(res, key = lambda x: x[1])
        
-       for r in range(len(res)):
-        res[r] = res[r][0]
+       res = [res[x][0] for x in range(len(res))]
         
        return res
