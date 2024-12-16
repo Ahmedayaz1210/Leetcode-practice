@@ -117,6 +117,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Dynamic Programming
@@ -162,6 +163,7 @@
 | ------- |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Counting
 |  |
@@ -171,6 +173,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0002-add-two-numbers) |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Two Pointers
 |  |
@@ -258,6 +261,7 @@
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 ## Trie
 |  |
 | ------- |
@@ -268,10 +272,19 @@
 | ------- |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Data Stream
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
