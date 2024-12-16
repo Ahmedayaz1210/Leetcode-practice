@@ -25,6 +25,11 @@ PLAN:
 - Remember to push the points with it's distance as [-Distance, point] in the max heap
 - Once max heap becomes size k and we still have points left, now calculate ED for each point you are on and compare with the biggest in the max heap which will be at the top, if this is smaller, pop and push else keep moving
 - In the end remove the distance from the array and return back just the points
+
+EVALUATE:
+- Did first medium all by myself!
+- TC: O(n log k) because looping for points array of size n and adjusting heap which will be length k at max
+- SC: O(k) in worst case because k can = n
 '''
 import math
 from heapq import heappush, heappop
