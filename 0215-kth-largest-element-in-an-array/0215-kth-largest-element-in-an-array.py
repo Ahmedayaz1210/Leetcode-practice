@@ -35,7 +35,7 @@ OPTIMAL APPROACH:
 - O(n) is average it can be O(n^2)
 - O(1) SC because of in order modification/swapping
 - For detailed explanation check notion notes
-
+- Leetcode isn't approving Quick select because of O(n^2) worst time so submitting with heap approach
 '''
 from heapq import heapify, heappop
 
