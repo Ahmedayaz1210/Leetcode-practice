@@ -116,6 +116,7 @@
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
@@ -146,6 +147,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sliding Window
 |  |
@@ -165,12 +167,14 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Counting
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 ## Math
 |  |
 | ------- |
@@ -275,6 +279,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
@@ -292,4 +297,8 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
