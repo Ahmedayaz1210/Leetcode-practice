@@ -31,6 +31,14 @@ PLAN:
     - Increase result by 1
     - Increase time by 1
 - Return result
+
+
+EVALUATE:
+- I DID QUITE A HARD PROBLEM BY MYSELF!
+- VERY BIG ACHIEVEMENT AND AMAZING PROGRESS
+- Only thing I needed help with was the extra cooling_down list uage, but I kind of did think of it too because I knew I needed extra data structure
+- TC: O(m) number of intervals
+- SC: O(1) because 26 letters
 '''
 from collections import Counter
 from heapq import heapify, heappush, heappop
