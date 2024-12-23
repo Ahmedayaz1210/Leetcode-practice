@@ -40,6 +40,46 @@ PLAN:
     - Take all users from set, append their tweets to a max heap by negating time
     - pop out 10 most recent with only thr tweetId, return this list
 
+EVALUATE:
+- The problem isn't hard, it feels like too much information thrown at once
+- Wording did make it seem harder, once you figured out data structures it gets easier
+- Nevertheless I would say got 50% of the problem myself
+Time Complexity:
+
+getNewsFeed(): O(n) where n is total followees
+
+Earlier we said O(F + UTlog(U*T)), but in the worst case:
+U (users) = n (total followees + user themselves)
+Since we only get 10 tweets max, the log factor becomes less significant
+So simplified to O(n)
+
+
+Other methods (postTweet, follow, unfollow): O(1)
+
+These just involve simple dictionary and set operations
+No iteration or complex data structure manipulation
+
+
+
+Space Complexity: O(Nm + NM + n)
+Let's understand each term:
+
+N*m: Storage for all tweets
+
+N users, each with up to m tweets
+This is for our tweets dictionary
+
+
+N*M: Storage for following relationships
+
+N users, each following up to M other users
+This is for our following dictionary
+
+
+n: Additional space used in getNewsFeed
+
+For storing users set and heap
+n is number of followees for that specific user
 
 '''
 from heapq import heapify, heappush, heappop
