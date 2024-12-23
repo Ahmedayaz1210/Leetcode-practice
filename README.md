@@ -144,6 +144,7 @@
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
+| [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
@@ -226,6 +227,7 @@
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
@@ -246,6 +248,7 @@
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Doubly-Linked List
 |  |
@@ -278,6 +281,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
