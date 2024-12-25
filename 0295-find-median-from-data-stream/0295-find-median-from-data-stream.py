@@ -39,6 +39,14 @@ Move minHeap's top to maxHeap, then add new number to minHeap
 
 - findMedian: if lengths of both heaps are same, pop out the top from both and return mean
 - Else return the top of larger of the two
+
+EVALUATE:
+- First hard I have done in a while
+- It was wayyyy too challenging
+- Took 2 days to full understand and do it with the help of AI
+- Wouldn't take credit for it
+- Space complexity is O(n) where n is length of array
+- Time complexity will be O(m * log n) where m is num of calls for add Num and O(m) for finding median
 '''
 from heapq import heappush, heappop
 class MedianFinder:
@@ -66,6 +74,7 @@ class MedianFinder:
     def findMedian(self) -> float:
         if len(self.min_heap) == len(self.max_heap):
             return (self.min_heap[0] + -self.max_heap[0]) / 2
+        # Max heap always have one more element in case not same length so its top should be returned
         return -self.max_heap[0]
 
 
