@@ -43,6 +43,13 @@ PLAN:
 - Start decisions from index 0
 - Return all found subsets
 
+
+EVALUATE:
+- This is first backtracking problem, this problem was part of the understanding topic so I didn't do it myself, I learned backtracking with this problem and learned with AI
+- Recursion for backtracking is hard to track on paper but it helped a lot once I got it
+- Seems like a hard topic
+- TC: O(n * 2^n) n is for copying the current array at each decision and in worse case it can be all of nums since that counts as a subset, for each element we make 2 decisions, whether to add it or not so for n elements its 2^n
+- SC: O(n) excluding the output, because at each call our stack is O(n) n being len of nums because after that we append to res array and return back from the call, also curr can store n elements in worse case
 '''
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -58,7 +65,7 @@ class Solution:
 
             curr.pop()
             dfs(i + 1)
-            
+
 
         dfs(0)
         return res
