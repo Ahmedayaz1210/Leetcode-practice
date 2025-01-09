@@ -103,12 +103,14 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 ## Array
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
