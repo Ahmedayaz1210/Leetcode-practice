@@ -32,11 +32,16 @@ PLAN:
 - dfs(0 index, 0 sum)
 - return res
 
-
-
 choices: either take a num again or take next
 constraints: sum has to be exact target
 goal: find all combinations
+
+
+EVALUATE:
+- TC: O(2^(t/m)) t is target and m in min val in candidates
+    - The intuition here is that at each call we can make 2 decisions and then in worse case the max calls we can make at each depth is how long it takes smallest value to get to target which is t/m
+
+- SC: O(t/m) same reason because that's how long depth will be
 '''
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -53,6 +58,6 @@ class Solution:
             dfs(i, curr, total + candidates[i])
             curr.pop()
             dfs(i+1, curr, total)
-            
+
         dfs(0,[],0)
         return res
