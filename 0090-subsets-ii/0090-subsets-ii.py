@@ -36,6 +36,11 @@ PLAN:
     - Run back Dfs to explore all paths without taking this num
 - Dfs starts from 0th index
 - return res
+
+EVALUATE:
+- Finally solved a backtracking question myself!
+- TC: O(n * 2^n)
+- SC: O(n) for call stack
 '''
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
