@@ -11,7 +11,7 @@ UNDERSTAND:
 - nums[i] can be -10 to 10 inclusive
 
 MATCH:
-- Since we have to try each number at each position, we can usr backtracking
+- Since we have to try each number at each position, we can use backtracking
 - So we can use a number at a position and then go back and use it in a different
 - Choice: Which unused number should go in this position
 - Constraint: All permutations need to have all the numbers so when a len(perm) == len(nums)
