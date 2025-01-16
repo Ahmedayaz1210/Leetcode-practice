@@ -43,8 +43,15 @@ PLAN:
 - send in each row and column to dfs and start with index 0
 - (we loop over the whole thing because inside dfs we actually don't loop over the board we only look at adjacent cells of a path which is so far validating our path)
 - whatever is returned from dfs calls, store inside a variable
-- return that variable
+- return True immediately if its true, we do this because else it is going to loop over the whole thing and only return last path's boolean value
+- return false
 
+
+EVALUATE:
+- Wasn't able to solve because first time working with 2d arrays or boards
+- TC: O(m * 4^n) we go through the whole board and then we also make 4 calls each time and we make these calls len(word) times
+- SC: O(n) because at max we store amount of len(word) calls in stack and cells in our set
+- m is num of cells on board, n is len of word
 '''
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
