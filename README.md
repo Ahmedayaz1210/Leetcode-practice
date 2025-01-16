@@ -30,6 +30,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0100-same-tree) |
@@ -92,6 +93,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -106,6 +108,7 @@
 | [0040-combination-sum-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 ## Array
@@ -115,6 +118,7 @@
 | [0040-combination-sum-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -140,6 +144,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 ## Hash Table
 |  |
