@@ -94,6 +94,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0131-palindrome-partitioning) |
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -110,6 +111,7 @@
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0131-palindrome-partitioning) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 ## Array
 |  |
@@ -140,6 +142,7 @@
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0131-palindrome-partitioning) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 ## Matrix
 |  |
