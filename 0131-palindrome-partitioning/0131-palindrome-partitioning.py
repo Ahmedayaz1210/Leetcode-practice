@@ -29,7 +29,16 @@ PLAN:
 - curr = []
 - dfs(i)
     - base case: if i == len(s): res.append(curr.copy())
+    - run a loop over s and at each char explore all paths by checking if so far it is a valid pali and sending back to dfs
+- run dfs from start
+- return res
+- create valid palindrom function
 
+EVALUATE:
+- Once again couldn't solve a backtracking question
+- Honestly by now I should have known how this works and how backtracking is pretty much taking a snapshot at a point, going into future to explore it and then coming back to that point
+- TC: O(n * 2^n) n if for checking palindrome validation and 2^n is do we cut off at a point or keep going, two decisions for each char
+- SC: O(n) that is how many calls we will have in stack
 '''
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
