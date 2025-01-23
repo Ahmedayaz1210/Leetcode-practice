@@ -28,9 +28,14 @@ PLAN:
     - base case: since we only use one letter from each digit at a time so when i == len(digits) we append to res and return, no need to append copy of curr since it is a string
     - For each digit and for each of it's letters we loop over the next digit's all letters and combine them one by one, if like the next digit does not exist then we just explored all combinations
     - For each letter in our current digit:
-        - 
+        - We append it to curr and move to next digit
 - run dfs from 0th index
 - return res
+
+EVALUATE:
+- Finally solved a Backtracking question all by myself
+- TC: O(n * 4^n) so n is from creating strings of len(n) and 4^n is in worse case for 7 and 9 we can loop over 4 digits
+- SC: O(n) because call stack goes up to n and then return back hitting base case
 '''
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
