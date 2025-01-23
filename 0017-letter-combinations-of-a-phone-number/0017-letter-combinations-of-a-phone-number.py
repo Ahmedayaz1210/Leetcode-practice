@@ -54,8 +54,6 @@ class Solution:
                 res.append(curr)
                 return
             for letter in digit_to_letters[digits[i]]:
-                curr += letter
-                dfs(i + 1, curr)
-                curr = curr[:-1]
-        dfs(0, "")
+                dfs(i + 1, curr+letter)
+        dfs(0, "") #strings are immutable in python so we need to use it as a param rather than global var
         return res
