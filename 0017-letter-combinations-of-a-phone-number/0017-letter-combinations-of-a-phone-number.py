@@ -5,7 +5,7 @@ UNDERSTAND:
 - Each digit is mapped with some letters, they can be 3 or 4 letters as you can see in the picture
 - Output: Have to return all combinations which can be made from "digits"
 - Numbers can only be 2-9 inclusive
-- Which means 0,1 or anything else is exluded since it doesn't have any letters
+- Which means 0,1 or anything else is excluded since it doesn't have any letters
 - From pic I am assuming each digit can only have either 3 or 4 letters
 - 0 <= digits.length <= 4
 - TC? SC?
