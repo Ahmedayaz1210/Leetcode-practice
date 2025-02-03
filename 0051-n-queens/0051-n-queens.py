@@ -16,7 +16,7 @@ MATCH:
 - To explore a possible path for a queen in it's depth we can use DFS
 - For DFS we can use recursion
 - Choice: Which column should I put the queen in for each row?
-- Constraint: No queens can share row, column, or diagonal
+- Constraint: No two queens can share row, column, or diagonal
 - Goal: Find all possible solutions where we can place n queens
 
 PLAN:
