@@ -38,6 +38,11 @@ PLAN:
         - Put back "." instead of "Q"
     - Run DFS from 0th row
     - Return res list
+
+EVALUATE:
+- Could not solve the question myself as figuring out the diagnols were tricky
+- TC: O(n!) because for example if n = 4, at first placement we have 4 choices in our row or column, then once we place it we know we can't put it in same row or column so now we have 3, then 2, then 1 so n!
+- SC: O(n^2) because our board is n x n so it dominates all space and same thing is happening when we are copying board during our answer
 '''
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
