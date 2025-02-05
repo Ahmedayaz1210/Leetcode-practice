@@ -27,6 +27,11 @@ PLAN:
 - A nested loop to loop over the whole grid
     - Once a 1 is encountered we know it's an island even by itself so immediately increment result and then we send it into DFS function with 3 parameters grid, row and column (current cell where we encountered 1)
 - Return result integer
+
+EVALUATE:
+- Wow solved the very first graph problem myself, the struggle of Linked list, trees and backtracking paid off and gave me a solid understanding
+- TC: O(m x n) because in worse case if we have all 1's on the grid we loop over the whole grid
+- SC: O(m x n) because that's how many cells we can store at max in visited if all cells are 1 in worse case and same thing for call stack
 '''
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
