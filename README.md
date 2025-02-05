@@ -42,6 +42,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -61,6 +62,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -129,6 +131,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
@@ -152,6 +155,7 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 ## Hash Table
 |  |
@@ -335,4 +339,8 @@
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
