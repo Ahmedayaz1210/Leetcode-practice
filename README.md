@@ -51,6 +51,7 @@
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -65,6 +66,7 @@
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -141,6 +143,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
+| [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
@@ -157,6 +160,7 @@
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 ## Hash Table
 |  |
 | ------- |
@@ -343,4 +347,5 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
