@@ -24,10 +24,11 @@ PLAN:
 - Result integer "max_area"
 - visited list
 - DFS (grid, row, column):
-    - Base cases: if row and column go out of bounds or edges, if current cell is visited, if current cell is 0, we simply return on all these statements
-    - If base case is not hit then we are at a 1, so we append it to visited, increment current area, check if current area is greater than max so far, update it and move in all 4 directions
+    - Base cases: if row and column go out of bounds or edges, if current cell is visited, if current cell is 0, we simply return 0 on all these statements
+    - If base case is not hit then we are at a 1, so we append it to visited, increment current area, , update it and move in all 4 directions
 - A nested loop to loop over the whole grid
     - Once a 1 is encountered and it is not in visited, we know it's an island even by itself so we send it into DFS function with 4 parameters current_area (starts at 0), grid, row and column (current cell where we encountered 1)
+    - In the end we just check if curr_area is > max_area and update max accordingly
 - Return max_area integer
 
 EVALUATE:
