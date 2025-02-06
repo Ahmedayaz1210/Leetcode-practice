@@ -34,7 +34,9 @@ PLAN:
 EVALUATE:
 - Question wasn't so much different then number of island one so it was easy to understand and plan it, however I faced or made couple of dumb mistakes, 
     - Firstly I did not pay attention that in this question each character is a int and not string
-    - Secondly I kept astarting the curr_area from 0 in each call, but we have to increment 1 to each call because each call has it's own 1 and gets incremented to it
+    
+    - Secondly I kept astarting the curr_area from 0 in each call, but we have to increment 1 to each call because each call has it's own 1 and gets incremented to it (This is why we need our DFS to not just explore, but also count and return values. Each DFS call needs to tell its parent call "here's how many cells I found" so we can add them all up.)
+
     - Also i forgot to return 0 in base case, i simply put a return statement from previous question but we need to return 0 here because we are not validating an island anymore we are finding area so each time we either increment 1 in dfs or return 0. It's different from previous question because in that question we incremented our var outside of dfs
 
 - TC: O(m x n) because in worse case if we have all 1's on the grid we loop over the whole grid
