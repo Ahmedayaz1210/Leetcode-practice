@@ -33,6 +33,14 @@ PLAN:
 - A hashmap to create the clones and remember which ones we have already created
 - Looping over the graph by taking the first node and visiting it's each neighbor through DFS
 - Now for each node we are on, we create a new node at the original node's position and we append the original's value into the new node
+- We loop over original node's neighbors inside dfs, we append its neighbors to our cloned node but we append the cloned neighbors, that is why we send the neighbor back to dfs to create or check if it has a copy
+- In the end our dfs returns the current new copy we just made so it gets appended to the neighbors of copied node.
+
+EVALUATE:
+- Honestly the problem wasn't too hard, I feel like I could have gotten it, it was just a bit tricky
+- I got about 50% of the logic and code myself
+- TC: O(V+E) because we loop over the whole graph to create it's clone, the E comes when we go to the neighbors, even if their clones have been made, it will still try to visit them
+- SC: O(V) because hashmap only stores the cloned vertices
 
 '''
 from typing import Optional
