@@ -69,6 +69,7 @@
 | [0226-invert-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -148,6 +149,7 @@
 | [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
+| [1036-rotting-oranges](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Dynamic Programming
@@ -163,6 +165,7 @@
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
