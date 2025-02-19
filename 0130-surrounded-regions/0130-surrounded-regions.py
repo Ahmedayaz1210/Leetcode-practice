@@ -24,11 +24,17 @@ PLAN:
 - DFS method takes in current cell's position
     - Base cases: Check for out of bounds, being 'X' or already being in our set
     - If base case not hit then simpy add it to the set
+    - Run dfs in all 4 directions
 - Loop over border rows and cols
     - if any O is encountered, send it into dfs function to mark all its adjacent Os
 - Loop over the whole board
     - Check if it's an O cell
         - If so, check if it's not in our not to flip set, if so flip it
+
+EVALUATE:
+- Question felt quite easy, seems like I am getting the hang of graph problems
+- TC: O(m * n) to loop over grid to check and flip Os as necessary
+- SC: O(m * n) if we have all Os in worst case
 '''
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
