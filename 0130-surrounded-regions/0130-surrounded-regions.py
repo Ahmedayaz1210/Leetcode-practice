@@ -61,8 +61,6 @@ class Solution:
             dfs(r, 0)
             dfs(r, cols-1)
 
-       
-
         for r in range(rows):
             for c in range(cols):
                 if board[r][c] == 'O':
