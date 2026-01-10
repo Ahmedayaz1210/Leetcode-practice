@@ -112,6 +112,7 @@
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0242-valid-anagram](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
@@ -191,6 +192,7 @@
 | [0187-repeated-dna-sequences](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0187-repeated-dna-sequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0219-contains-duplicate-ii) |
+| [0242-valid-anagram](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
@@ -213,6 +215,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0242-valid-anagram](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0295-find-median-from-data-stream) |
 | [0506-relative-ranks](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0506-relative-ranks) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
