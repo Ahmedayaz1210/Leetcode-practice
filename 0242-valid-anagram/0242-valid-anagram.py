@@ -22,6 +22,8 @@ class Solution:
         return False
 
 """
+Follow up question: My solution already handles Unicode characters without modification. Python dictionaries can use any character as a key, so whether it's 'a' or '你' or '😀', the counting logic remains the same. The space complexity would still be O(1) if we consider the character set finite.
+
 For cleaner code you can simplify return to return s_hash == t_hash
 Instead of nested if statements for occurences, do s_hash[s[i]] = s_hash.get(s[i], 0) + 1
 
