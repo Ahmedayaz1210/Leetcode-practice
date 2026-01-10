@@ -1,58 +1,46 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        '''
-        first let's check if both strings are the same length, if not then return false instantly
-        if len(s) != len(t):
-            return false
-        Let's put all of the characters from s into the hashset
-        Then we run a loop on t and if the character at the iterator is in the hashset we keep moving
-        else return false
-        
-        if len(s) != len(t):
-            return False
-        
-        hashset = set()
-        for i in s:
-            hashset.add(i)
-
-        for j in t:
-            if j not in hashset:
-                return False
-        return True
-        '''
-
         if len(s) != len(t):
             return False
 
-        countS = {}
-        countT = {}
+        s_hash, t_hash = {}, {}
 
         for i in range(len(s)):
-            countS[s[i]] = 1 + countS.get(s[i], 0)
-            countT[t[i]] = 1 + countT.get(t[i],0)
-        
-        for c in countS:
-            if countS[c] != countT.get(c, 0):
-                return False
-        
-        return True
+            if s[i] in s_hash:
+                s_hash[s[i]] += 1
+            else:
+                s_hash[s[i]] = 1
 
-        
+            if t[i] in t_hash:
+                t_hash[t[i]] += 1
+            else:
+                t_hash[t[i]] = 1
 
-        
-# * So basically in this question we are given two strings and we are checking if both have the exact **same characters** which would mean they have to be the **same Length**. 
-# * Seems like another question where I could use a hashset to remember the characters in the first array and then match with the second.
-# * Also seems like the same question as contains duplicate, so this is a pattern of Arrays and hashing.
-# * Let's use hashset as extra memory to optimize the time complexity: **Time complexity and Space Complexity will be : O(n)**
-# * Would a hashset work for this because a hashset does not contain any duplicate values and here there could be duplicates.
-# * let's try solving with a hashset
-# * Solution passed 43/48 test cases but still good attempt..
-# * **Another solution**
-# * saw this in discussions but what if i sort both arrays and then compare each value, if both are the same then it's true else false
-# * **Another solution**
-# * We can use hashmaps to keep count of each character's occurrences and compare them
-# * so in python we can use dictionaries
-# * Here time and space complexity are both O(n)
-# * what if interviewer wants us to make space complexity O(1) so we don't use extra space. then we just use sorted method but even sorting algorithms take space complexity.
-# * even a hasmap can atmost take 26 characters after that it is repetition
-        
+        if s_hash == t_hash:
+            return True
+
+        return False
+
+"""
+For cleaner code you can simplify return to return s_hash == t_hash
+Instead of nested if statements for occurences, do s_hash[s[i]] = s_hash.get(s[i], 0) + 1
+
+
+* Understand:
+		* Essentially checking if the string t has same characters as string s and they are just rearranged. if yes return true else return false
+		* we are given the constraints, so we have at least one character in each string, it can't be empty
+		* maybe another edge case could be if they are the same words? but no way to instantly check that and return true, it would be same time because we would be checking for each character
+		* something which could help off the bat checking if both strings are the same length if not instantly return false
+* Match:
+		* i think the optimal way or the firs thing in my mind comes to use a hashmap, store each character and it's occurrence for both strings and see if they match or not
+* Plan:
+		* check if both strings are same length to confirm we are on right track
+		* initialize the hashmaps
+		* since they are the same length confirmed by our first if statement, we can run one loop and store for both
+		* see if both == each other? if so return true else false, yes in python u can use == to compare
+* Review: Everything looks good
+* Evaluate: 
+		* TC: Looping over both at once so O(n) + O(n) simplified to just O(n)
+		* SC: O(n) x 2 so O(n) but since lowercase chars we can say O(26) or O(1) simplified
+"""
+
