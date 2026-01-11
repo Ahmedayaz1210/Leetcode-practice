@@ -49,5 +49,7 @@ class Solution:
 * Evaluate: 
 * TC: O(n) looping through arrays twice so simplified to O(n)
 * SC: O(n) storing 3 arrays, all O(n)
-* I would say got 60% of the problem myself, brute force was really easy O(n^2), firguring out how to move left and right was a bit tricky
+* I would say got 70% of the problem myself, brute force was really easy O(n^2), firguring out how to move left and right was a bit tricky
+
+Follow up: I couldn't solve this but you can do this by first looping over nums and storing all left products in ans array. Then loop backwards and have a right product variable which starts with 1. now ans[i] from backwards would be ans[i] *= right product. Then updates right product *= nums[i]. This works because right most will always be 1 just like left most. Then from there you just have to keep track of all previous elements, which only one variable can do. This makes it O(1)
 """
