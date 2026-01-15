@@ -14,4 +14,3 @@ class Solution:
             ans[i] = left[i] * right[i]
 
         return ans
-        #test1
