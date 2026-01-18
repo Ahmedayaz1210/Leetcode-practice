@@ -136,6 +136,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
@@ -167,6 +168,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0131-palindrome-partitioning) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
@@ -240,6 +242,7 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
@@ -299,6 +302,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0144-binary-tree-preorder-traversal) |
@@ -384,4 +388,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0207-course-schedule) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
