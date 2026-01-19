@@ -107,6 +107,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0131-palindrome-partitioning) |
@@ -302,6 +303,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
