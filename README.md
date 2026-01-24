@@ -309,10 +309,12 @@
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0145-binary-tree-postorder-traversal) |
+| [0155-min-stack](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0155-min-stack) |
 ## Design
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0295-find-median-from-data-stream) |
