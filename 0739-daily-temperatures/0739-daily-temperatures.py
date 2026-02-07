@@ -14,11 +14,14 @@ Plan:
 - then we check while something is already in stack and if that is true, within same statement, is stacks top smaller than current value?, if it is pop it and for that popped index, store in answers current index - popped_index
 - then lastly we push the current index into stack
 - return answers
+
+Evaluate:
+- Was able to fully solve after first learning monotonic stacks
+- TC and SC both O(n) because in tc the stack efficiently only loops once and keeps storing next greater which is slightly a bit back tracking logic, sc because we store same len of elements in answers
 '''
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         answers = [0] * len(temperatures)
-        print(answers)
         stack = []
 
         for i in range(len(temperatures)):
