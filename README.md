@@ -162,6 +162,7 @@
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
+| [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1036-rotting-oranges) |
@@ -312,6 +313,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0145-binary-tree-postorder-traversal) |
 | [0155-min-stack](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -399,4 +401,5 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0084-largest-rectangle-in-histogram) |
+| [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
