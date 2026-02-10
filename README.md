@@ -148,6 +148,7 @@
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0130-surrounded-regions) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
@@ -239,6 +240,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0002-add-two-numbers) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Two Pointers
@@ -312,6 +314,7 @@
 | [0143-reorder-list](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 ## Design
