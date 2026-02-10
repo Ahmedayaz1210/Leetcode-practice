@@ -17,6 +17,11 @@ Plan:
 - while the stack is not empty and current element is an operand we push it in stack
 - we have to also be careful of converting string token integers into integers
 - once we hit an operand, we pop twice, perform the appropriate calculation and push result back. now if it's a division make sure to use int(a/b) so it cuts the post decimal result
+
+Evaluate:
+- Solved all by myself!
+- TC: O(n) looping once
+- SC: O(n) worst case it's same length as tokens
 '''
 
 class Solution:
