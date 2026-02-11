@@ -17,6 +17,11 @@ Plan:
 - else if its smaller than middle's first element than it is in left arrays
 - if neither then obv it's in this one, wherever in the point the middle array has been found
 - once we have identified the middle row, we break out of first loop of finding the row and now we run our regular binary search algorithm on this subarray, so it's two layers, finding that array where element exists and then in that array either finding the element or returning False if it doesn't exist, this approach is better than looking at last element of every subarray
+
+Evaluate:
+- I was able to get the logic but since I don't have much experience with 2d array, I struggled a bit with mode
+- TC: O(log(m * n)) since in first loop we cut down m rows by log and in second we cut down the n cols by log
+- SC: O(1) since we only use single var pointers
 '''
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -37,7 +42,7 @@ class Solution:
         # if element isn't in here, to avoid out of bounds we handle this
         if not (top <= bot):
             return False
-        mid = (top + bot) // 2
+        mid = (top + bot) // 2 #finding the same row from previous while loop where top and bot ended
         l = 0
         r = COLS - 1
         while l <= r:
