@@ -163,6 +163,7 @@
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
@@ -278,6 +279,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
+| [0704-binary-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0704-binary-search) |
 ## Prefix Sum
 |  |
 | ------- |
