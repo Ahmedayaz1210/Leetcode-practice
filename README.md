@@ -140,6 +140,7 @@
 | [0042-trapping-rain-water](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0051-n-queens) |
+| [0074-search-a-2d-matrix](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0084-largest-rectangle-in-histogram) |
@@ -180,6 +181,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0200-number-of-islands) |
@@ -276,6 +278,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
