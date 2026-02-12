@@ -167,6 +167,7 @@
 | [0704-binary-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0747-min-cost-climbing-stairs) |
+| [0875-koko-eating-bananas](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0875-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1127-last-stone-weight) |
@@ -283,6 +284,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0875-koko-eating-bananas) |
 ## Prefix Sum
 |  |
 | ------- |
