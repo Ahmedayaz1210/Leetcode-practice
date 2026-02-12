@@ -32,6 +32,11 @@ Plan:
 - right = max(piles)
 - now what's the main logic? what is mid value satisfying here? - so we would need a var to keep track of hours and see it doesn't cross h. then we loop over each piles element and see is mid >= piles[i] if so we add 1 to our curr hours, if its not and is bigger than we do piles[i] - mid and store it in a var let's say remaining then if we have any remaining we check mid over that and do that until it's exhausted, then we repeat the process but if at any point, curr hours goes over hours, we break out and move back to binary search to find next bigger number or if it's less than hours then we have capactiy to go down and find next smallest
 - can actually use (p[i/k)ceil method this is actually faster than subtraction
+
+Evaluate:
+- I would say solved 80% of it by myself, there were some issues in code but got the logic pretty much
+- TC: O(n + log(max of the pile)) because n is for looping piles and we log from 1 to max of pile because thats how big we can go
+- SC: O(1)
 '''
 
 class Solution:
