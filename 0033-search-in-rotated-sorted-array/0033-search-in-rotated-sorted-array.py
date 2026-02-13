@@ -21,7 +21,11 @@ Match:
 
 Plan:
 - Run the binary search
-- While 
+
+Evaluate:
+- This problem was a bit hard, wouldn't give myself credit for doing it, I even struggled a bit with the code, i forgot to check if one half isn't sorted then check other one
+- SC: O(1)
+- TC: O(log n) from BS
 '''
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
