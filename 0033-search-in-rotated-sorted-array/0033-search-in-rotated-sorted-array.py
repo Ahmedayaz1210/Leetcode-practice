@@ -38,7 +38,7 @@ class Solution:
                     else:
                         l = mid + 1
                 else:
-                    if target >= nums[mid+1] and target <= nums[r]:
+                    if target >= nums[mid] and target <= nums[r]:
                         l = mid + 1
                     else:
                         r = mid - 1
