@@ -118,6 +118,7 @@
 | [0257-binary-tree-paths](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0257-binary-tree-paths) |
 | [0424-longest-repeating-character-replacement](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
+| [0981-time-based-key-value-store](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0981-time-based-key-value-store) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
 ## Backtracking
 |  |
@@ -212,6 +213,7 @@
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0621-task-scheduler) |
+| [0981-time-based-key-value-store](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0981-time-based-key-value-store) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sliding Window
 |  |
@@ -287,6 +289,7 @@
 | [0287-find-the-duplicate-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0875-koko-eating-bananas) |
+| [0981-time-based-key-value-store](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0981-time-based-key-value-store) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -336,6 +339,7 @@
 | [0295-find-median-from-data-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0981-time-based-key-value-store](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0981-time-based-key-value-store) |
 ## Doubly-Linked List
 |  |
 | ------- |
