@@ -20,9 +20,21 @@ Plan
 - get:
 - first check if key does not exist, we return ""
     - ini l = 0 and  r = len(self.timemap[key]) - 1
+    - keep a result variable = "" this is because we always want to keep track of next smaller, so anytime we know a smaller timestamp exists we move to left and also store mid value in result because this is the next smaller and helps us avoid:
+    Example:
+    Timestamps: [5, 10, 15]
+    Target: 3
+    All timestamps are > 3, so return "" through result
     - now run the BS
     - if the mid == timestamp: we alr got the answer we return the value at that timestamp
-    - else
+    - else if its smaller: store mid which could be the result and move to left:
+    -else: move right:
+- return result
+
+Evaluate:
+- Got 90% of the problem, just didn't realize abour result variable and returning "" in case no smaller exists
+- SC: O(m) where m = total number of set calls across all keys
+- TC: O(log n) where n is number of elements a key has
 '''
 class TimeMap:
 
