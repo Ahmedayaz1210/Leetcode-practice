@@ -1,40 +1,34 @@
 '''
-UNDERSTAND:
-- Given an array of integers "prices"
-- Where prices[i] is price of a stock on the ith day
-- Have to find the maximum profit of buying a stock one day and selling it in future (has to be future, can't track back once bought)
-- Buy at the minimum price and sell at the maximum future price
-- Buying and selling has to be DIFFERENT days
-- output: max profit
-- Clarifying questions: min and max length of the array? 1 - 10^5
-- Can we have an empty array?
-- With the one element in the array how can we buy and sell on different days?
-- Each integer can be between 0 and 10^4
-- Lowest a max profit can be is 0
+Understand:
+- Given an int array called prices where prices[i] is price of a stock on a given day
+- We have to return the maximum profit as an int we can make if we buy at a certain day and sell at another in future, key thing to note is you can't buy in future and sell in past, so once u buy you can only move forward over the array
+- if profit is less than 0 then return 0
+- How big will prices be? 1 to 10^5
+- How big prices[i] will be? 0 to 10^4
+- are we only dealing with ints? yes
 
-MATCH: 
-- For max and min problems we can use, DP, Greedy or sliding window
-- Sliding window works best because we have to keep track of both the min price and maxprofit so we can create a window of it
+Match:
+- So basically the straight forward approach to this is taking each element and calculating it's profit with all future elements in array but this will take a lot of time it would be O(n^2)
+- so l pointer on 7 and r on 1, ok so val at l is bigger than val at r which means this can't be max profit for now, so we move r pointer one over because this one keeps moving for comparison and we move l to this element or next element since it's smaller and we know this is smallest so far so now l is on 1 value i mean it has idx 1 too so whatever, then r moves to 5 value, now we compare and get a profit of 4 ok so this is max profit so far but since 5 is > 1 we don't need to move l and we just move r to calculcate next and eventually we exhaust all list and never switch l pointer since nothing was smaller than 1
+- this way we can achieve O(n)
 
-
-PLAN: 
-- Left pointer at 0 index, right at 1 index 
-- if current index is smaller than min variable, that's our new min
-
-EVALUATE:
-- Run time complexity: O(n) because looping through all of the array and calculating maxProfit for each integer
-- Space complexity: O(1) because of keeping track of min number and max Profit
+Plan:
+- Check if we have at least two elements else return 0
+- Have max profit = 0 variable
+- Have left = 0 and r = l+1 pointers
+- Run a loop with r  over the prices list:
+    - compare prices[r] - prices[l], if bigger than max so far then     update max profit
+    - if prices[l] > prices[r] move over l to r
+- return max profit
 '''
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        minNum = prices[0]
-        maxProfit = 0
-        for p in prices:
-            if minNum > p:
-                minNum = p 
-            maxProfit = max(maxProfit, (p - minNum))
-
-        if maxProfit < 0:
-            maxProfit = 0
-        return maxProfit
-            
+        if len(prices) < 2:
+            return 0
+        max_profit = 0
+        l = 0
+        for r in range(1,len(prices)):
+            max_profit = max(max_profit, prices[r]-prices[l])
+            if prices[l] > prices[r]:
+                l = r
+        return max_profit
