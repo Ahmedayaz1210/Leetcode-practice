@@ -20,6 +20,11 @@ Plan:
     - compare prices[r] - prices[l], if bigger than max so far then     update max profit
     - if prices[l] > prices[r] move over l to r
 - return max profit
+
+Evaluate:
+- Solved it all by myself! Even though I understood that this is not exactly a sliding window question because we don't care about elements in the window
+- SC: O(1)
+- TC: O(n) because we loop once and only move l under a certain condition
 '''
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
