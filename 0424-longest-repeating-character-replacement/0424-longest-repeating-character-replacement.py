@@ -1,99 +1,50 @@
 '''
-UNDERSTAND:
-- Input:
- - String 's' and integer 'k'
-- From string have to take out at most k characters
-- Replace them with characters which occur before it
-- To form a contiguous sequence of the same characters
-- For each substring all the characters in it have to be exact same as the starting out
-- Questions: 
- - How long can s be? 1 to 10^ 5
- - How big k can be? 0 to length of s 
- - Is s only letters? Yes uppercase letters only
-- Edge cases:
- - If length of s is 1, we return 1
- - If k is 0, we don't replace anything, we return longest substring of same chars from the s
+Understand: 
+- Given two inputs string s and k int, you can perform k operations on s, operation here means that replacing any char from s to an uppercase alphabet and you can do this k times 
+- Asked to find the longest chain of same uppercase chars, so looking at example 1 we replace both As with 2 Bs or both Bs with two As so we can get either chain of all As or all Bs but in this case both will be len 4 so doesn't matter - In the end we return the longest sequence of same char 
+- Does s only have uppercase alphas? yes - How long is s? 1 to 10^5 - how big is k? 0 to len of s
 
-MATCH: 
-- Replacing chars with one(s) occurring before it or them
-- Keep track of the longest substring or window of those same repeating characters
-- We use Sliding Window approach
+Match:
+- So we definitely need a hashmap to keep track of occurences of each alphabet.
+- I think logic here is we will have a dynamic sliding window where right pointer loops the list and left moves accordingly. 
+- I think the logic is that we keep checking the window size and compare it with keeping track of highest frequency character, when we subtract we get the number of elements which need to get changed and if that number exceeds k that's when window becomes invalid for example 2:
+when window is "AABAB" window size is 5, A is occuring the most with 3 A's, 5-3 = 2 elements need to get changed but we can only change one so that's invalid now
+- And if it any point it doesn't satisfy we keep running the while loop and update left accordingly.
 
-PLAN: 
-- left pointer = 0
-- longestSub = 0
-- kcounter = 0
-- currSub = ""
-- run loop over the string with the right pointer
- - Check if the char on right pointer == char on left pointer:
-  - add right pointer char to the currSub
- -  if not the same and kcounter < k:
-  - add left pointer element to curSub
-  - ++ kcounter
- - if they are not the same and kcounter >= k:
-	 - longestSub = max(longestSub, len(currSub))
-	 - currSub = ""
-	 - kcounter = 0
-	 - left pointer ++ 
-	 - right pointer goes back to left pointer as well
-- return longestSub
+Plan:
+- left pointer at 0
+- Hashmap = {}
+- longest_window = 0
+- for r in range(len(s)):
+    - add the right element to hashmap
+    - window_size = r - l + 1
+    - max_freq = i dont know how to get max value from hashmap right now
+    - if window_size - max_freq > k:
+        - subtract l occurence from hashmap and if 0 then element gets deleted
+        - l += 1
+    - longest_window = max(longest_window, window_size)
+return longest_window
 
-EVALUATE:
-- Not the best code
-- Check each possible window and still have to move right pointer to left pointer
-- My code: O(n^2)
-- Passed 26/45 test cases:
-- Ex: fails "ABBB"
-        l, r = 0, 0
-        longestSub = 0
-        kcounter = 0
-        currSub = ""
-
-        while r < len(s): 
-            if s[l] == s[r]:
-                currSub += s[r] 
-                r += 1
-            elif kcounter < k:
-                currSub += s[r]  
-                kcounter += 1
-                r += 1
-            else:
-                longestSub = max(longestSub, len(currSub))
-                currSub = ""
-                kcounter = 0
-                l += 1
-                r = l 
-        
-        longestSub = max(longestSub, len(currSub))
-        
-        return longestSub
-
-NEETCODE:
-- I KNEW that we would be using hashMap somehow because we have to keep track of elements in the middle of window and their occurences technically
-- Have to take length of window and count of the most occuring char in hashMap, hashMap - count[most occurring] = num of characters in our window that we need to replace (confirming if this is < k, if yes we have a valid window)
-- Finding most occurring char from hashMap will be O(26) because only 26 alphabets in worst case
-- Now with this logic we implement sliding window
-- It's about how many we need to replace, we don't have to replace it, I think that's the trap here
-- This way we only loop once and then our window takes care of the rest, because it can shrink from left to validate how many changes we need
+Evaluate:
+- Got the logic but had a lot of mistakes, need to do more easys before jumping into mediums
+- SC: O(26) or O(1) in worse case
+- TC: O(n) looping once
 '''
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        count = {}
-        res  = 0
-
         l = 0
+        hashmap = {}
+        longest_window = 0
+        max_freq = 0
+
         for r in range(len(s)):
-            count[s[r]] = 1 + count.get(s[r], 0)
-            while (r - l + 1) - max(count.values()) > k:
-                count[s[l]] -= 1
+            hashmap[s[r]] = hashmap.get(s[r], 0) + 1 #if doesnt exist do 0 else increment
+            window_size = r - l + 1
+            max_freq = max(max_freq, hashmap[s[r]])
+
+            if window_size - max_freq > k:
+                hashmap[s[l]] -= 1
                 l += 1
-            res = max(res, r - l + 1)
-        return res
 
-
-
-
-
-
-
-
+            longest_window = max(longest_window, r - l + 1)
+        return longest_window
