@@ -7,10 +7,12 @@ Understand:
 
 Match:
 - Since we know we are kind of given a fixed number and we can't go outside that range, we can use sliding window method but obviously we don't care to keep track of elements inside the window, we just care about i and j and this window can be dynamic since it is <= k but max we can go is k
+- This example justifies why we need a hashset nums = [0,1,2,3,2,5], k = 3
 
-Plan:
-- l = 0
-- for r in range
+Evaluate:
+- I couldn't figure out why we need a hashset until my code failed on the example above so I am not sure how much credit to give myself
+- SC: O(k) in worst case storing all ints in nums
+- TC: O(n) looping nums once
 '''
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
