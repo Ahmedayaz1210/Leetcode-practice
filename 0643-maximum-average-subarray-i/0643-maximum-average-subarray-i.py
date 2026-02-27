@@ -1,46 +1,28 @@
-#Notes got deleted while refreshing :(
-#Passed all test cases but only beats 5%, good progress but a lot of hard coding
 '''
-My code:
-if len(nums) == 1:
-            return float(nums[0])
-        if k == 1:
-            nums.sort()
-            return float(nums[len(nums)-1])
-        maxAvg = float('-inf')
-        l = 0
-        tempAvg = nums[l] 
-        for r in range(1,len(nums)):
-            tempAvg = tempAvg + nums[r]
-            print(tempAvg)
-            if r - l + 1 < k:
-                continue
-            elif r - l + 1 == k:
-                maxAvg = max(maxAvg, tempAvg / k)
-                tempAvg = tempAvg - nums[l]
-                l += 1
-            
+Understand:
+- Have to find a contig subarray where k amounts of elements have the highest average.
+- What happens if we have less than k elements
 
-        return maxAvg
+Match:
+- Since we know this is contig array we are finding and the length of that array is given k
+- We can use fixed sliding window to solve this
+
+Plan:
+- l = 0
+
 '''
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
-        if k == 1:
-            return max(nums)
-    
-        window_sum = sum(nums[:k])
-        max_sum = window_sum
+        l = 0
+        maxAvg = float('-inf')
+        currSum = 0
         
-        for i in range(k, len(nums)):
-            window_sum = window_sum - nums[i-k] + nums[i]
-            max_sum = max(max_sum, window_sum)
-        
-        return max_sum / k
-
-        '''
-        In this approach we create the first window from 0 to k - 1 (because of python)
-        Then run the loop from k to the end creating each window, removing left most element
-        (i-k does that) and adding the nums[i] equivalent to right pointer
-        Another thing: better to / k at the end because before that we just need the highest 
-        sum, doesn't make sense to / k each time
-        '''
+        for r in range(len(nums)):
+            currSum += nums[r]
+            if r - l + 1 == k:
+                currAvg = currSum / k
+                maxAvg = max(maxAvg, currAvg)
+                currSum -= nums[l]
+                l += 1
+                
+        return maxAvg
