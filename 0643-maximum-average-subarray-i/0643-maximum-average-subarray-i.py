@@ -7,9 +7,10 @@ Match:
 - Since we know this is contig array we are finding and the length of that array is given k
 - We can use fixed sliding window to solve this
 
-Plan:
-- l = 0
-
+Evaluate:
+- A few errors in code but solved myself in the end
+- TC: O(n)
+- SC: O(1)
 '''
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
