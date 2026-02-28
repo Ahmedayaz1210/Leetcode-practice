@@ -120,6 +120,7 @@
 | [0567-permutation-in-string](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0567-permutation-in-string) |
 | [0981-time-based-key-value-store](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0981-time-based-key-value-store) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
+| [2269-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2269-find-the-k-beauty-of-a-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -228,6 +229,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0594-longest-harmonious-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0643-maximum-average-subarray-i) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
+| [2269-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2269-find-the-k-beauty-of-a-number) |
 ## Sorting
 |  |
 | ------- |
@@ -251,6 +253,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1014-k-closest-points-to-origin](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1014-k-closest-points-to-origin) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/1430-find-the-k-beauty-of-a-number) |
+| [2269-find-the-k-beauty-of-a-number](https://github.com/Ahmedayaz1210/Leetcode-practice/tree/master/2269-find-the-k-beauty-of-a-number) |
 ## Two Pointers
 |  |
 | ------- |
