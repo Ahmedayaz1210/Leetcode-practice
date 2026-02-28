@@ -25,10 +25,14 @@ if currSub reaches k len:
     take out l from currstr and move on with l
 
 return ans
+
+Evaluate:
+- Did it in about 20 minutes, all by myself, def getting better, even caught my mistakes and realized dont need l pointer
+- TC: O(n)
+- SC: O(k)
 '''
 class Solution:
     def divisorSubstrings(self, num: int, k: int) -> int:
-        l = 0
         currSub = ""
         ans = 0
         numStr = str(num)
@@ -40,6 +44,5 @@ class Solution:
                 if currNum != 0 and num % currNum == 0:
                     ans += 1
                 currSub = currSub[1:]
-                l += 1
         return ans
 
