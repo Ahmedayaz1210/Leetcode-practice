@@ -21,6 +21,11 @@ Plan:
 - then in the end once we are out of while loop we know that element def does not exist anymore so we now append element at pointer r and continue
 - now we update maxLen accordingly
 - return maxLen out of the loop
+
+Evaluate:
+- Solved a medium after solving easys, this felt much easier now
+- TC: O(n)
+- SC: O(k) i said k because letters, symbols and spaces are finite
 '''
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
@@ -29,7 +34,7 @@ class Solution:
         maxLen = 0
         for r in range(len(s)):
             while s[r] in hashset:
-                hashset.remove(s[l])
+                hashset.discard(s[l]) #using discard because handles error well
                 l += 1
             hashset.add(s[r])
             maxLen = max(maxLen, r - l + 1)
