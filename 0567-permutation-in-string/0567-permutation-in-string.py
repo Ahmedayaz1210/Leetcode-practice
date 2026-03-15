@@ -23,6 +23,11 @@ Plan:
         - no move l pointer
     - check if curr window and s1 len matches and both hashmaps == each other: return true
 - return false
+
+Evaluate:
+- Got the question! Was just a bit confused why we need to add each element into s2 but it's necessary for the algorithm to run the while loop and keep removing that char until satisfied
+- TC: O(n) n = len(s2)
+- SC: O(26)
 '''
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
