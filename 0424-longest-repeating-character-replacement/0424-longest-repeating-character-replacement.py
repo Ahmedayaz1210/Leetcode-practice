@@ -22,6 +22,10 @@ Plan:
     - we update the highest window size
 - return longest sub
 
+Evaluate:
+- Struggled a bit with figuring out that trick was window size - highest occurrence but overall coded and reasoned pretty well
+- SC: O(26)
+- TC: O(n)
 '''
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
