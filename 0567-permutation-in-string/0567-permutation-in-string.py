@@ -28,6 +28,14 @@ Evaluate:
 - Got the question! Was just a bit confused why we need to add each element into s2 but it's necessary for the algorithm to run the while loop and keep removing that char until satisfied
 - TC: O(n) n = len(s2)
 - SC: O(26)
+
+Neetcode's solution which is slightly better, ours is more so of O(26 * n) and his is O(n)
+- NOTE: Every time your window reaches size len(s1) you do s1_hashmap == s2_hashmap which compares up to 26 keys — and you do that at every step of the loop, so it's O(26 * n).
+- So we don't need to compare both hash maps each loop
+- We can have a matches variable
+- With this technique you need to make both hash sets of length 26 even if all letters are not being used and some are 0, this way we can match them 
+- Basically you check if at each stage matches variable stays at 26 or not, 26 means that both hash sets match and all 26 letters have same frequency
+- Watch video for further explanation
 '''
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
