@@ -32,7 +32,7 @@ class Solution:
         for r in range(len(s)):
             hashmap[s[r]] = hashmap.get(s[r], 0) + 1
             currWinSize = r - l + 1
-            highestElement = hashmap.get(max(hashmap, key=hashmap.get))
+            highestElement = hashmap[max(hashmap, key=hashmap.get)]
             if currWinSize - highestElement > k:
                 hashmap[s[l]] = hashmap.get(s[l], 0) - 1
                 l += 1
