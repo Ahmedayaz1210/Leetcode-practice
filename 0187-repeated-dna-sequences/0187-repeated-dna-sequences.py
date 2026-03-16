@@ -1,48 +1,46 @@
 '''
-UNDERSTAND:
-- Given a string s, which is a DNA sequence
-- Find all of the 10 letter long sequences which repeat more than once
-- Dna sequence is a string made up of only 'A', 'C', 'G', 'T'
-- We have to return all of the possible substrings which occurr more than once
-- Substrings have to be contiguous sequences and can be multiple of them and have to be exactly 10 letter long
-- Does it have to be exactly 10?
-- String is only going to contain ACTG?
-- How long can s be? >=1 and <= 10^5
-- Any time and space constraints?
-- All the letters are going to be only Uppercase? Yes
-- Does the way we return output matter in the array? No
-- What if s is < 10? Empty list
+Understand:
+- So given a string s we have to find sequence(s) 10 letters long which occurr more than once in the string
+- That 10 letter long sequence or substring can only have the letters [A,C,G,T]
+- We return all the sequences we can find as a List
+- Check constraints
 
-MATCH
-- Window size is fixed, have to atleast find 10 letter long window
-- Has to be contiguous sequence
-- Tells us sliding window technique
-- HASH MAP TO KEEP TRACK OF SEQUENCES OCCURRING ONCE
+Match:
+- Since it has to be one of those 4 letters we can store them in a List [A,C,G,T]
+- We have to check if a sequence is occurring more than once, I guess here we can use a hashset instead of a map because we are only checking for more than one occurrence so if its already in hashset and currently we found another occurrence we know its valid and we dont need to store every single occurrence
+- Finding a contig sequence tells we can use a sliding window to keep track of the 10 letter substr
+NOTE: constraint says s[i] is either 'A', 'C', 'G', or 'T'. which means we never will encounter a letter other than these 4
 
-PLAN 
-- Create a Window, add window to hash set
-- Keep removing from left and expanding from right
-- Check if the window exists in hash set, if so append it to the result list
-- Originally we can make result list a hashset so it never repeats since we only have to return one occurrence
-- Then in the end we can convert result set to a list and return it back
+Plan:
+- hashset for seeing if we have already seen this in current window
+- left pointer = 0
+- sequence = "" for tracking the 10 letter sequences
+- ans = [] list to store all possible sequences
+- loop over s with r pointer:
+    - append current character to sequence
+    - If sequence is of len 10, check if its in hashset, if so append to ans
+    - else append to hashset
+    - remove char at l
+    - move l by 1
+- return ans
 
-EVALUATE
-- Overall got the solution, only thing I had to look up was that we can create a second set for result instead of a list so only one occurrence is added and later convert it to a list when returning answer
-- Time complexity: O(n), looping through the entire string once
-- Space complexity: O(n). in worst case our result can have n repeating sequences
+
 '''
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        sequences = set()
-        result = set()
+        hashset = set()
+        l = 0
+        seq = ""
+        ans = set()
 
-        window = ""
         for r in range(len(s)):
-            window += s[r]
-            if len(window) == 10:
-                if window in sequences:
-                    result.add(window)
-                sequences.add(window)
-                window = window[1:]
-
-        return list(result)
+            seq += s[r]
+            if len(seq) == 10:
+                if seq in hashset:
+                    ans.add(seq)
+                    print(ans)
+                else:
+                    hashset.add(seq)
+                seq = seq[1:]
+                l += 1
+        return list(ans)
