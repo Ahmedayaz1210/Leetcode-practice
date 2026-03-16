@@ -24,7 +24,10 @@ Plan:
     - move l by 1
 - return ans
 
-
+Evaluate:
+- Don't understand how this is a medium it was way too easy
+- TC: O(n)
+- SC: O(n)
 '''
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
