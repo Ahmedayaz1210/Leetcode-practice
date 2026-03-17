@@ -31,6 +31,14 @@ Plan:
         - move l by one
 - return min_str if its not None else return ""
     
+Evaluate:
+Understanding: This was my first time solving a hard problem in a while. Conceptually, the sliding window + hashmap idea was clear, and I understood how to check for a valid window.
+
+Implementation: The code was tricky, especially tracking frequencies and shrinking the window efficiently. I estimate I solved about 70% of the problem correctly. The main inefficiency was using curr_str operations, which would have made the solution O(n²) instead of optimal O(m+n). Using indices (res = [l, r]) instead is the key improvement.
+
+Progress: Despite minor inefficiencies, this was good practice, and I’m now more confident in handling sliding window + hashmap problems for substrings.
+- TC: O(m+n)
+- SC: O(m+n)
 '''
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
