@@ -14,7 +14,11 @@ Match:
 - We can use a monotonically decreasing queue where first element is always the max and all rest are decreasing, each time we try to add a new element we remove from behind because from behind we encounter the smallest element and we can compare the new one to it, if new one is bigger we automatically know the last element in dequeue is useless and it will never be greater than this new one which is coming after it in idx so it will be included in next window(s) so this way we can remove the one already in the queue from behind and we keep removing until the new element is greater
 - now remember we store idx not the actual value because now if the max at front is out of bounds we can check if by comparing it's idx with left pointer, if left pointer is > start of dequeue we can remove the element from dq
 
-
+Evaluate:
+- Logic was indeed quite hard to get but on the bright side once I understood everything I coded the whole thing up myself, which is good because coding is definitely getting better and I can make sense out of english into code
+- really helps when you english by hand on the example
+- TC: O(n) since we are only looping once
+- SC: O(k) worse case deque is window size
 '''
 from collections import deque
 class Solution:
