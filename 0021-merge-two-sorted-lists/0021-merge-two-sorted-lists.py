@@ -1,38 +1,22 @@
 '''
-UNDERSTAND:
-- Input: Two sorted LL, list1 and list2
-- Both LL are sorted
-- We need to merge them together and make it into one merged sorted LL
-- Loop over both lists and compare their corresponding position nodes and place the smaller one before larger one in the merged list
-- list1 and list2 same length? no
-- If one is bigger: when the smaller LL finishes, you append the larger ones all remaining nodes as is to the merged list
-- Empty lists? return empty lists
-- Time constraint?
-- Space constraint?
-- Is node.val only going to be ints? Yes
-- How big can each int be?
-- How big can one LL be? 
-- Both always going to be sorted
-- How do we handle same node values? Doesn't matter
-- Not always going to be corresponding nodes
+Understand:
+- Given head of two sorted LLs
+- Have to merge them into one sorted, so curr node.val > prev node.val
+- The number of nodes in both lists is in the range [0, 50].
+- -100 <= Node.val <= 100
+- Both list1 and list2 are sorted in non-decreasing order.
+- We can have two nodes with same val so doesn't really matter which goes before which as long as LL follows rest of order, we might have to just check >= in the code or <= depending on which way we go
 
-MATCH:
-- Obv LL question
+Match:
+- From example 2 we can see if both LLs are empty return None I guess?
+- Since we know both are sorted we don't really need to worry much about connection cutting since we know next one will always be greater 
+- What we can do is taken the longer of the two and loop over it because we know longer one will just append left over nodes at the end as is or maybe we loop over shorter one, wait how do we know size of them since we are just given head nodes
+- So I guess we do like while either of the heads or curr doesn't reach none, we compare the curr nodes values, now if we need to make a connection, we move curr on one LL to its next to not lose track of it and point the curr's next to other LL's curr
 
-PLAN:
-- Create merged_list 
-- Loop over the lists until one of them reaches null
-- Will be a while loop because we need to handle our pointers based off of a comparison statement
-- Place pointers on both lists
-- Check if one is smaller than the other
-- Append the smaller one to the merged_list and increment it
-- In the end if either of the two lists have any nodes remaining append to the merged_list
-
-EVALUATE:
-- I was able to solve the question, the only thing I messed up was I used "or" instead of "and" in while loop because we only need to check if we have looped over one of them
-- n is the length of list1 and m is the length of list2
-- Time complexity: O(n+m)
-- Space Complexity: O(1)
+Evaluate:
+- I overcomplicated my code, I got the logic correct, my code was good enough to only pass on screen tests but it was a bit messy when returning the head it wasn't properly checking which one to return, which is why we needed a dummy node here and this is a concept I had forgotten so it's ok I will still count as question solved
+- TC: O(m + n) we loop both in worse case if they are same len
+- SC: O(1)
 '''
 # Definition for singly-linked list.
 # class ListNode:
@@ -41,24 +25,19 @@ EVALUATE:
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        merged_list = ListNode(0)
-        current = merged_list
-        l1 = list1
-        l2 = list2
         
-        while l1 != None and l2 != None:
-            if l1.val < l2.val:
-                current.next = l1
-                l1 = l1.next
+        dummy = ListNode(0)
+        curr = dummy
+        
+        while list1 and list2:
+            if list1.val <= list2.val:
+                curr.next = list1
+                list1 = list1.next
             else:
-                current.next = l2
-                l2 = l2.next
-            current = current.next
-
-        if l1 is not None:
-            current.next = l1
-        else:
-            current.next = l2
+                curr.next = list2
+                list2 = list2.next
+            curr = curr.next
         
-        return merged_list.next
-
+        curr.next = list1 if list1 else list2
+        return dummy.next
+        
