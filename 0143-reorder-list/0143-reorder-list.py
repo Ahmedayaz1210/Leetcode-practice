@@ -1,61 +1,54 @@
 '''
-UNDERSTAND:
-- Input: Given a singly LL
-- Have to rearrange the LL
-- Such that LL starts with the first node - > last node -> second node -> second to last node and so on
-- L0 -> Ln -> L1 -> Ln-1 and so on
-- Only move the nodes and not just values within the nodes
-- Time constraints?
-- Space Constraints? 
-- All node values are going to be integer?
-- Singly LL
-- Only given the head
-- How long can LL be? 1 - 5 * 10 ^ 4
-- Node.val is >= 1 and <= 1000
+Understand:
+- Given head of a LL
+- Have to rearrange the LL in a way such that we put first node then we point it to last node, then we point it to 2nd node and that points to n-1 node, n being last
+- We cannot change it by values, we have to point by node addresses
+- From examples seem like node.val goes in increasing order but since vals are irrelevant, I can ignore that
+- The number of nodes in the list is in the range [1, 5 * 104].
+- 1 <= Node.val <= 1000
 
-MATCH:
-- We can Use slow pointer and fast pointer approach probably
-- Can also use the pattern of reversing the LL somewhere in between
-- For Brute force we can use deque so we can remove from left and right at a time
+Match:
+- I mean brufte force way i can think of it is looping the whole LL, storing all nodes and rearranging so thats O(n) sc and O(n) tc 
+-maybe we can use two pointers here too? so kind of one starts at head and for tail we first loop all the way till end of LL, oh wait maybe we have to use the logic of reversing a LL here? so could it be reverse + merge two LLs logic?
+- How about taking the LL in half, keep the first half and reverse the second half
+- Then from there we can merge both using merging logic from previous question 
+- One thing to keep track of is, we need to split them in half so when we find the middle, we have to identify it's previous and make it point to none, this way it's O(n) two separate for loops not nested and O(1) sc
+- also this merging is strictly alternating not based of node.val
 
-PLAN:
-- We can use a dequeue approach as brute force for O(n) space and time
-- Dequeue helps us remove and add from both sides
-- reorder = deque()
+Plan:
+let's have a split and reverse function
+- headTwo = head
+- endTwo = head
+- prev = head
+- while endTwo and endTwo.next:
+    - prev = headTwo
+    - headTwo = headTwo.next
+    - endTwo = endTwo.next.next
+- prev.next = None
+curr = headTwo
+prev = None
+- while curr:
+    nxt = curr.next
+    curr.next = prev
+    prev = curr
+    curr = nxt
 
-        curr = head
-        
-        while curr:
-            reorder.append(curr)
-            curr = curr.next
+merge function takes headtwo and head
+headone = head
+- while headone and headtwo:
+    nxt1 = headone.next
+    headone.next = headtwo
+    headone = nxt1
+    nxt2 = headtwo.next
+    headtwo.next = headone
+    headtwo = nxt2
 
-        curr = reorder.popleft()
-        toggle = True
-
-        while reorder:
-            if toggle:
-                curr.next = reorder.pop()
-            else:
-                curr.next = reorder.popleft()
-            curr = curr.next
-            toggle = not toggle
-
-        curr.next = None
-- Optimal Approach:
-- Have to somehow:
-    - Split the LL into half: 
-
-        -The way you do that is using fast and slow pointer so by the time fast pointer is on the last node or None, slow will be at the half way point where can find out that slow pointer is the middle barrier since fast moves "Twice". 
-        -So slow.next will be beginning of the second half, works for both even and odd lists
-
-    - Second half gets reversed:
-        - Use the same approach as Reverse Linked List
-
-    - Both halves get merged:
-        - Remember to save the next of each pointer from both halves before breaking them off because we will need them to merge back together
-
-    - Last node should point to None
-
+Evaluate:
+- So I couldn't get the logic, it was hard to find out that we need to split in half, reverse second half and merge alternatively
+- I tried the code, got 90% of it, but for some reason it wasn't working on example 2, it kept missing the 3 in the end so it wasn't working on odd nodes
+- I looked up the solution and this solution was much simpler but i got the code most of it on my solution but it was just too messy
+- TC: O(n)
+- SC: O(1)
 '''
 # Definition for singly-linked list.
 # class ListNode:
@@ -64,10 +57,6 @@ PLAN:
 #         self.next = next
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
-        """
-        Do not return anything, modify head in-place instead.
-        """
-
         slow, fast = head, head.next
 
         while fast and fast.next:
@@ -90,13 +79,11 @@ class Solution:
         # Merging both halves
         # first is head of the first half and since second was reversed, it's head is the last node which is on prev
         first, second = head, prev
-        while second:
+        while second: #according to our code second will always be smaller in odd nodes
             temp1, temp2 = first.next, second.next
             first.next = second
             second.next = temp1
             first, second = temp1, temp2
-
-
-
-
-
+        
+        
+        
