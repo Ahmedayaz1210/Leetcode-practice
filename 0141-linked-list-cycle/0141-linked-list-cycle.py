@@ -16,12 +16,17 @@ Match:
 Plan:
 - slow = head
 - fast = head
-- while fast:
+- while fast and fast.next:
     slow = slow.next
     fast = fast.next.next
     if slow == fast:
         return True
 return False
+
+Evaluate:
+- Very easy problem because I know about slow and fast pointers, just needed help with if fast.next is None then when we try to access it's next we get none type error, so for that in while we check both fast and fast.next because if first fast.next == none then we know jump to false automatically
+- SC: O(1)
+- TC: O(n)
 '''
 # Definition for singly-linked list.
 # class ListNode:
