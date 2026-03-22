@@ -1,56 +1,27 @@
 '''
-UNDERSTAND:
-- Input: Two inputs: head of LL and an integer value "n" 
-- Have to remove the nth node from the end of the list
-- Go to the end of LL and from there count back n times and remove that n'th node
-- Remove nth node from "None"
-- Singly LL
-- n always < len(LL)? Yes, 1 - len (inclusive)
-- How long can the LL be? 1 to 30 inclusive
-- How big can each node.val be? 0 to 100 inclusive
-- All values of nodes are going to be ints ? Yes
-- n is int? Yes
-- Empty list? will have at least 1 node
-- if one node n has to be 1, then we retun empty list
-- Time Complexity?
-- Space Complexity?
+Understand:
+- Given head of a node and an int n
+- Have to remove nth node from end of list
+- The number of nodes in the list is sz.
+1 <= sz <= 30
+0 <= Node.val <= 100
+1 <= n <= sz
+- Guaranteed to have at least one node and n will always be smaller than or = to num of nodes
+- If we have one node, obv n will be 1, we remove than node and return none so have to remember this
 
-MATCH:
-- Brute force approach: store everything in a list and remove nth from the last or len(list) - n, we will have original position of it
-- But that is big O(n) memory
-- Can be done using slow and fast pointer
+Match:
+- I mean Brute force way has to be reverse the LL and the remove the nth node from there by traversing n times once reversed, that would be O(n)
+- The reason why this is a medium problem is to see if we can do this in one pass
+- For that we can use a two pointer approach, first pointer starts as a dummy on none which points to head and second one starts n nodes away from head
+- Now once second pointer reaches none at the end, we know first one is just one behind the nth node since we started it at dummy one behind head so now we can point the first's next which right now is pointing to the node we are trying to remove, and now will be pointing to it's next so the connection can be cutoff and that nth node is removed, this is the reason why we created the dummy node
 
-PLAN:
-- BF: Append eveyrthing to a list and then do len(list) - n, remove that node and make its previous point point to the node we want to remove's next
-```
-nodes = []
-        current = head
-        while current:
-            nodes.append(current)
-            current = current.next
-        
-        toRemove = len(nodes) - n
-        if n <= len(nodes):
-            if n == len(nodes):  
-                return head.next
-            nodes[toRemove - 1].next = nodes[toRemove].next
-        
-        return head
-```
-- Use Two pointer approach
-- One pointer is behind which remain n steps behind forward pointer
-- forward is initialized to head and moved n times from the start
-- if forward is None after moving n steps, this means we need to remove the first node (EDGE CASE)
-- we just return head.next
-- else we move both pointers until forward goes to last node
-- after this loop we take the behind pointer which is one previous to the node we want to remove and we make it skip that node and point to .next.next
+Plan:
+- create dummy node with val 0, point it to head and put the start pointer there
+- create end pointer at head, traverse it n times
+- now while end pointer does not reach none, keep moving both pointers
+- now once out of while, point start to it's next's next and the connection has been cutoff
+- return the head back
 
-EVALUATE:
-- I was able to solve BF approach 
-- For optimal, I messed up algorithm slightly by creating a prev pointer but all we needed to do was loop forward till last node not till None
-- Also I didn't realize about the edge case, which was if we have to remove the head node, then we check if forward is None after n steps, if so we return head.next
-- Time Complexity: O(n)
-- Space Complexity: O(1)
 '''
 # Definition for singly-linked list.
 # class ListNode:
@@ -59,19 +30,18 @@ EVALUATE:
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        behind, forward = head, head
-
+        dummy = ListNode(0)
+        dummy.next = head
+        start = dummy
+        print(start)
+        end = head
         for i in range(n):
-            forward = forward.next
+            end = end.next
+        print(end)
+        while end:
+            end = end.next
+            start = start.next
 
-        if not forward:
-            return head.next
+        start.next = start.next.next
 
-        while forward.next != None:
-            behind = behind.next
-            forward = forward.next
-
-
-        behind.next = behind.next.next
-        return head
-        
+        return dummy.next
