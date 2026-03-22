@@ -20,8 +20,24 @@ Plan:
 - create end pointer at head, traverse it n times
 - now while end pointer does not reach none, keep moving both pointers
 - now once out of while, point start to it's next's next and the connection has been cutoff
-- return the head back
+- return the dummy.next back
 
+Evaluate:
+- Pretty easy problem, got it myself, just had confusion here but figured it out myself
+so first i returned head back but it didnt work for 
+
+Example 2:
+
+Input: head = [1], n = 1
+Output: []
+
+
+which made sense because head is still on node 1 and even tho its cut off its not deleted so it returned it back
+
+but when i returned dummy.next it fixed it, how, oh wait i get it even tho start and dummy are two different vars they point to same address of dummy so if start changes the next so will dummy get affected
+
+- TC: O(n)
+- SC: O(1)
 '''
 # Definition for singly-linked list.
 # class ListNode:
@@ -33,11 +49,11 @@ class Solution:
         dummy = ListNode(0)
         dummy.next = head
         start = dummy
-        print(start)
+
         end = head
         for i in range(n):
             end = end.next
-        print(end)
+            
         while end:
             end = end.next
             start = start.next
